@@ -1,0 +1,1301 @@
+Simulation_Run_ID,Task_ID,WBS_Code,Task_Name,Phase,Task_Category,Current_Board_Status,Planned_Due_Date,Story_Points,Is_Milestone_Gate,External_Dependency,Assignee_Active_Workload_SP,Assignee_Experience_Years,Upstream_Delay_Days,Scope_Creep_Changes,Logged_Blockers,Actual_Delay_Days,Risk_Outcome
+RUN-01,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Progress,17-Nov,8.5,0,0,26.8,3.2,5.6,0,0,3,Delayed
+RUN-01,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Blocked,24-Nov,3,0,0,33.3,5.3,2.7,1,1,4,Delayed
+RUN-01,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,In Progress,25-Nov,4.5,0,1,23.8,7.2,0.2,1,0,3,Delayed
+RUN-01,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,To Do,1-Dec,3,0,0,20.1,5.2,0.1,1,1,0,On_Time
+RUN-01,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,In Progress,9-Dec,6,0,0,26.3,3.1,0.5,1,0,0,On_Time
+RUN-01,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,In Progress,10-Nov,2,0,1,35.6,6,0,2,0,2,On_Time
+RUN-01,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,To Do,26-Dec,2.5,1,1,40.8,6.4,0,1,0,7,Delayed
+RUN-01,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,26-Dec,0,1,0,27.3,3.1,3.8,0,0,0,On_Time
+RUN-01,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,To Do,29-Dec,3.5,0,0,22.5,4,2.4,0,1,3,Delayed
+RUN-01,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,To Do,14-Jan,4.5,0,0,29.1,5,0,1,0,2,On_Time
+RUN-01,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,To Do,14-Jan,7.5,0,0,32,4.8,7.8,0,2,11,Missed
+RUN-01,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,In Progress,8-Jan,4.5,0,1,34.2,4.1,2.8,1,2,10,Missed
+RUN-01,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,To Do,9-Jan,2.5,0,0,42,3.5,4.1,0,0,1,On_Time
+RUN-01,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,To Do,14-Jan,3,0,0,32.3,2.2,4.5,0,2,4,Delayed
+RUN-01,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,To Do,22-Jan,2.5,0,0,40.1,1.9,1.5,0,2,1,On_Time
+RUN-01,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,To Do,22-Jan,7,0,0,28.5,7.8,0.9,1,2,6,Delayed
+RUN-01,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Progress,28-Jan,2,0,0,31.5,7.1,0,1,0,2,On_Time
+RUN-01,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,To Do,1-Feb,2,1,1,27.8,3.9,0.9,0,2,7,Delayed
+RUN-01,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,To Do,6-Feb,0,1,1,27.3,7.8,1,0,1,0,On_Time
+RUN-01,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,To Do,18-Feb,9,0,1,29.6,6,0.7,1,0,6,Delayed
+RUN-01,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,23-Feb,9.5,0,1,29.5,4.7,6.7,2,2,11,Missed
+RUN-01,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,1-Mar,7.5,0,0,27.7,4.8,0,1,1,2,On_Time
+RUN-01,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,26-Feb,4.5,0,0,28,2.1,0,1,1,3,Delayed
+RUN-01,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,3-Mar,6.5,0,0,37,2.2,0,1,0,4,Delayed
+RUN-01,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,4-Mar,2,0,0,42,5.5,0.1,0,0,0,On_Time
+RUN-01,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,13-Mar,3.5,0,0,28.3,5.2,2.2,0,0,0,On_Time
+RUN-01,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,17-Mar,2,0,0,29.2,3,2.1,2,0,5,Delayed
+RUN-01,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,2-Apr,6.5,0,0,33.9,7.7,5.7,0,1,6,Delayed
+RUN-01,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,13-Mar,4,0,1,42,6.6,1.2,1,0,5,Delayed
+RUN-01,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,20-Mar,2.5,0,0,31.5,2.3,5.4,0,1,2,On_Time
+RUN-01,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Progress,24-Mar,1.5,0,0,36.4,7.6,11,0,0,3,Delayed
+RUN-01,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,31-Mar,9.5,0,0,39.5,7.9,0,1,1,2,On_Time
+RUN-01,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,In Progress,13-Apr,12.5,0,0,32.9,8,5,1,1,3,Delayed
+RUN-01,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,19-Apr,4.5,0,0,36.1,1.9,0,0,2,4,Delayed
+RUN-01,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,21-Mar,13.5,0,0,34.4,6.4,2.1,1,1,1,On_Time
+RUN-01,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,13-Apr,4.5,0,0,36.7,5.1,0,0,0,0,On_Time
+RUN-01,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,17-Apr,4,0,0,25.3,6.2,4.9,0,1,5,Delayed
+RUN-01,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,22-Apr,4,0,0,32.1,7.9,3.3,0,1,7,Delayed
+RUN-01,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,3-Apr,6.5,0,0,33.7,6,0,1,1,3,Delayed
+RUN-01,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,11-Apr,3.5,0,0,33.6,7,7.4,1,0,6,Delayed
+RUN-01,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,26-Apr,3,0,0,37.3,7.2,3.1,1,1,4,Delayed
+RUN-01,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,30-Apr,3.5,0,0,33.5,7,12.5,1,1,4,Delayed
+RUN-01,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,2-May,3,1,0,24.7,4.3,3,0,0,1,On_Time
+RUN-01,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,In Progress,6-May,0,1,0,34.3,3,0,2,1,7,Delayed
+RUN-01,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,23-May,7,0,0,26.2,4.1,2.6,1,1,9,Delayed
+RUN-01,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,2-Jun,8.5,0,0,27.2,7.4,0.3,1,1,0,On_Time
+RUN-01,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,10-May,4,0,0,28.7,2.5,4.1,0,2,13,Missed
+RUN-01,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,5-Jun,4.5,0,0,30.4,4.9,2.5,0,0,4,Delayed
+RUN-01,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,3-Aug,26,0,0,22.5,3.1,0,1,0,4,Delayed
+RUN-01,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,13-Aug,7,0,0,37.2,5.3,0,0,0,0,On_Time
+RUN-01,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,23-Jun,21.5,0,1,24.7,7.2,1.1,1,2,7,Delayed
+RUN-01,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,17-Aug,2.5,1,0,39.6,7.3,2.4,1,0,3,Delayed
+RUN-01,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,18-Aug,0,1,0,24.8,3.1,3.8,0,0,0,On_Time
+RUN-01,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,In Progress,24-Aug,4,0,0,38.1,7.5,5.1,3,1,10,Missed
+RUN-01,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,21-Sep,19,0,0,30.9,5.4,0,1,0,2,On_Time
+RUN-01,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,22-Sep,16,0,0,21.6,3.8,5.9,2,2,14,Missed
+RUN-01,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,26-Aug,2,0,0,25.3,6.2,4.7,2,1,6,Delayed
+RUN-01,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,30-Sep,5,0,0,38.3,4.7,0,0,0,0,On_Time
+RUN-01,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,24-Dec,11.5,0,1,33.5,4,0.1,1,0,7,Delayed
+RUN-01,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,27-Dec,10,0,0,30.6,6.2,3.1,2,0,1,On_Time
+RUN-01,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,25-Dec,3,0,1,18.8,3.2,1.4,1,0,4,Delayed
+RUN-01,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,In Progress,28-Dec,0,1,1,38.7,3.7,0.7,2,2,11,Missed
+RUN-01,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,1-Jan,13.5,0,1,41.3,4.4,2.8,1,0,4,Delayed
+RUN-01,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,5-Jan,13,0,0,40.3,3.2,1.3,0,0,0,On_Time
+RUN-01,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,In Progress,5-Jan,3.5,0,0,27.6,4.2,2.5,1,0,4,Delayed
+RUN-02,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,23-Nov,10,0,0,32.4,2.7,2.7,0,1,4,Delayed
+RUN-02,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,In Review,30-Nov,4,0,1,26.4,3.5,0.1,2,0,6,Delayed
+RUN-02,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,In Review,28-Nov,5,0,1,28.5,6.3,15.1,1,2,10,Missed
+RUN-02,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,To Do,3-Dec,3.5,0,0,39.9,7.4,0.5,0,1,4,Delayed
+RUN-02,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Blocked,12-Dec,8,0,0,26.5,1.8,0.9,1,0,2,On_Time
+RUN-02,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,To Do,15-Nov,2.5,0,0,40.3,4.8,0.2,1,0,0,On_Time
+RUN-02,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Blocked,29-Dec,3,1,0,35.8,7,3.6,1,0,5,Delayed
+RUN-02,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Progress,29-Dec,0,1,0,39.2,1.8,0,1,1,8,Delayed
+RUN-02,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,In Progress,5-Jan,4.5,0,1,26.3,6.7,0.7,1,2,2,On_Time
+RUN-02,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Blocked,15-Jan,5.5,0,1,28.8,3.6,0.3,0,1,3,Delayed
+RUN-02,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Review,13-Jan,10,0,0,27.3,3.4,0.4,1,1,3,Delayed
+RUN-02,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,To Do,6-Jan,5,0,1,35.9,7.6,3.1,2,0,9,Delayed
+RUN-02,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,To Do,15-Jan,3,0,1,26.6,2.6,4.1,2,0,7,Delayed
+RUN-02,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,To Do,16-Jan,3.5,0,0,33.8,5.8,1.8,2,0,1,On_Time
+RUN-02,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,To Do,25-Jan,3,0,1,33.5,6.6,2.3,0,0,4,Delayed
+RUN-02,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,To Do,27-Jan,8.5,0,0,29.5,1.6,4,1,0,2,On_Time
+RUN-02,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,To Do,31-Jan,2,0,1,36.9,5.6,0.1,1,0,3,Delayed
+RUN-02,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,To Do,7-Feb,3,1,0,30.3,7.5,1.4,1,1,1,On_Time
+RUN-02,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,To Do,7-Feb,0,1,0,34.3,2.1,12.6,1,0,6,Delayed
+RUN-02,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,To Do,18-Feb,11.5,0,1,27,7.1,0,1,1,7,Delayed
+RUN-02,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,24-Feb,11,0,1,25.8,5.2,1,1,2,12,Missed
+RUN-02,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,4-Mar,8,0,1,33.8,5.3,2.6,2,0,4,Delayed
+RUN-02,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,5-Mar,5,0,0,32.1,5.3,1.5,0,0,2,On_Time
+RUN-02,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,7-Mar,7,0,1,31.1,3.2,2.7,1,0,4,Delayed
+RUN-02,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,7-Mar,3,0,0,27.9,7.4,0.5,0,1,0,On_Time
+RUN-02,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Progress,16-Mar,4,0,0,38.3,7.4,0.5,1,0,3,Delayed
+RUN-02,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,18-Mar,2,0,0,23.6,5.4,0.5,2,1,2,On_Time
+RUN-02,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,4-Apr,7.5,0,0,23.3,6.4,0,1,0,1,On_Time
+RUN-02,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,14-Mar,6,0,0,34.9,5.3,4.6,1,0,5,Delayed
+RUN-02,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,21-Mar,3.5,0,1,34.5,4.4,0,2,1,7,Delayed
+RUN-02,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,26-Mar,1.5,0,0,31.7,5.6,0.7,0,2,7,Delayed
+RUN-02,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,5-Apr,9.5,0,1,28.2,4.9,4.6,2,1,7,Delayed
+RUN-02,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,In Progress,18-Apr,13,0,0,32.5,5.2,0.6,0,0,4,Delayed
+RUN-02,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,24-Apr,5.5,0,1,39.2,6.4,0.9,1,2,5,Delayed
+RUN-02,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,24-Mar,13.5,0,1,42,4.4,0,1,1,15,Missed
+RUN-02,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,In Progress,15-Apr,5,0,0,20.6,1.6,1,0,0,0,On_Time
+RUN-02,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,20-Apr,4,0,1,27.4,2.4,3.8,1,0,3,Delayed
+RUN-02,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,In Progress,26-Apr,4.5,0,0,27.1,4.1,13.4,1,0,5,Delayed
+RUN-02,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,4-Apr,9,0,1,38.7,6,1.6,0,0,1,On_Time
+RUN-02,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,17-Apr,4.5,0,0,16.1,5.1,0,1,0,1,On_Time
+RUN-02,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,29-Apr,3,0,1,32.6,5.5,1,2,0,8,Delayed
+RUN-02,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,5-May,3.5,0,0,28.3,4.4,6.2,0,0,0,On_Time
+RUN-02,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,8-May,3.5,1,0,38.8,5.3,7,0,1,7,Delayed
+RUN-02,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,6-May,0,1,0,38,3.4,0,2,0,1,On_Time
+RUN-02,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,22-May,9,0,0,31.8,4.3,0,0,2,8,Delayed
+RUN-02,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,In Progress,9-Jun,9.5,0,0,21.1,6.1,5.5,0,1,4,Delayed
+RUN-02,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,14-May,4.5,0,0,26.6,7,8.8,2,1,10,Missed
+RUN-02,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,13-Jun,6,0,0,27.2,4.1,3.2,2,0,4,Delayed
+RUN-02,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,5-Aug,31,0,1,22.5,1.6,9.9,0,0,7,Delayed
+RUN-02,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,13-Aug,8.5,0,0,36.1,2.3,6.1,0,1,8,Delayed
+RUN-02,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,27-Jun,24.5,0,0,21.8,1.4,0,0,1,2,On_Time
+RUN-02,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,17-Aug,2.5,1,1,40.6,5.5,3,1,1,4,Delayed
+RUN-02,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,23-Aug,0,1,0,40.5,3.5,1.5,1,0,4,Delayed
+RUN-02,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,24-Aug,4,0,0,27.6,4.8,0.6,0,1,1,On_Time
+RUN-02,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,22-Sep,25,0,0,31.6,4.5,3.2,0,0,5,Delayed
+RUN-02,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,25-Sep,14,0,0,29.4,1.8,1.3,0,0,5,Delayed
+RUN-02,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,27-Aug,2,0,0,34.7,3.9,7,1,0,6,Delayed
+RUN-02,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,28-Sep,6.5,0,1,36.8,2.7,17.5,1,3,21,Missed
+RUN-02,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,In Progress,1-Jan,15,0,0,31.2,4,4.9,0,0,4,Delayed
+RUN-02,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,1-Jan,9,0,0,32.3,2.6,0.3,0,0,3,Delayed
+RUN-02,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,29-Dec,3,0,1,26.3,6.8,1.2,1,1,4,Delayed
+RUN-02,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,2-Jan,0,1,0,32.2,2.4,0.4,0,2,6,Delayed
+RUN-02,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,6-Jan,13.5,0,0,30.6,7.5,3.7,1,3,10,Missed
+RUN-02,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,In Progress,4-Jan,14,0,1,24.7,4,5.1,0,0,5,Delayed
+RUN-02,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,4-Jan,3.5,0,1,29.7,6.8,9.1,0,1,6,Delayed
+RUN-03,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,26-Nov,8,0,0,15.5,6,0.1,0,1,2,On_Time
+RUN-03,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,28-Nov,3,0,1,21.9,8.2,1,1,0,0,On_Time
+RUN-03,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,29-Nov,4.5,0,1,26.9,2.2,5,0,1,8,Delayed
+RUN-03,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,6-Dec,2.5,0,0,22.8,2.2,1,1,0,3,Delayed
+RUN-03,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,In Progress,16-Dec,7,0,0,24.7,3.9,5,0,2,7,Delayed
+RUN-03,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,In Progress,16-Nov,2,0,1,24.8,7.4,2.2,1,0,5,Delayed
+RUN-03,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Blocked,31-Dec,2.5,1,0,26.2,3.1,6.2,1,1,5,Delayed
+RUN-03,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Progress,31-Dec,0,1,1,23.6,4.1,2.5,0,0,6,Delayed
+RUN-03,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,In Progress,3-Jan,3,0,0,23.2,2.2,0.1,0,0,1,On_Time
+RUN-03,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Blocked,21-Jan,5,0,0,32.8,6.7,0,1,0,0,On_Time
+RUN-03,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Progress,19-Jan,8,0,0,33.4,4.4,0.1,0,1,7,Delayed
+RUN-03,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,In Progress,9-Jan,4,0,1,20,6.7,1.8,1,1,3,Delayed
+RUN-03,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,In Progress,16-Jan,2.5,0,1,12.4,7.6,7.8,0,0,0,On_Time
+RUN-03,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,To Do,17-Jan,3,0,0,33.5,3.2,0,0,2,7,Delayed
+RUN-03,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,To Do,28-Jan,2.5,0,0,20.9,7,1.4,0,0,0,On_Time
+RUN-03,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,To Do,30-Jan,7,0,1,28.8,2.1,0,1,1,5,Delayed
+RUN-03,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,To Do,2-Feb,1.5,0,0,19,7.6,6.3,0,1,5,Delayed
+RUN-03,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Progress,6-Feb,2,1,1,34.8,6,0,1,1,7,Delayed
+RUN-03,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,To Do,11-Feb,0,1,0,41.6,7.4,0.9,2,0,5,Delayed
+RUN-03,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,To Do,23-Feb,8.5,0,0,28.6,1.7,0,1,1,4,Delayed
+RUN-03,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,2-Mar,10,0,1,27.1,2.8,1,0,0,0,On_Time
+RUN-03,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,8-Mar,6,0,0,25.9,4.3,3.7,0,0,2,On_Time
+RUN-03,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,9-Mar,4,0,0,31.9,4.2,0,1,0,4,Delayed
+RUN-03,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,10-Mar,6.5,0,0,30.7,3.2,3.7,0,0,4,Delayed
+RUN-03,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,10-Mar,2,0,1,33.1,4.2,0,1,1,7,Delayed
+RUN-03,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Progress,21-Mar,3.5,0,0,24.2,2.6,0,1,1,2,On_Time
+RUN-03,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,22-Mar,1.5,0,0,29.5,4.4,3.7,1,1,10,Missed
+RUN-03,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,7-Apr,5.5,0,0,24.6,6.9,5.2,0,1,3,Delayed
+RUN-03,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,17-Mar,4,0,1,21.8,4.8,0.1,1,1,4,Delayed
+RUN-03,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,23-Mar,2.5,0,0,27.4,1.8,6,2,1,8,Delayed
+RUN-03,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,27-Mar,1.5,0,0,22.5,4.5,0.9,0,1,1,On_Time
+RUN-03,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,5-Apr,9,0,0,34.1,1.9,0,0,2,9,Delayed
+RUN-03,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,20-Apr,11,0,0,22.9,8,0,1,1,2,On_Time
+RUN-03,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,26-Apr,5,0,0,29.6,2.5,3.2,0,0,4,Delayed
+RUN-03,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,1-Apr,9.5,0,1,24.3,6.3,0.3,0,0,1,On_Time
+RUN-03,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,22-Apr,4,0,0,29.1,8,2.7,0,0,0,On_Time
+RUN-03,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,20-Apr,3.5,0,1,24.7,7.1,2.3,0,1,4,Delayed
+RUN-03,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,1-May,3,0,0,20.7,6.3,6.8,0,0,1,On_Time
+RUN-03,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Progress,8-Apr,6.5,0,1,30.3,7.2,1.5,1,3,10,Missed
+RUN-03,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,17-Apr,3.5,0,0,26.3,8.1,1.1,0,1,0,On_Time
+RUN-03,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,1-May,3,0,0,29.2,5.8,4.1,0,0,1,On_Time
+RUN-03,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,3-May,2.5,0,1,25.3,5.4,1.6,0,1,3,Delayed
+RUN-03,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,9-May,2.5,1,0,20.3,5.8,0,2,1,2,On_Time
+RUN-03,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,10-May,0,1,0,33.6,5.2,0,1,0,0,On_Time
+RUN-03,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,26-May,7,0,0,31.7,5.8,6.4,0,0,3,Delayed
+RUN-03,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,7-Jun,7,0,1,24.5,4.6,2.7,3,1,11,Missed
+RUN-03,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,18-May,4,0,0,28,3.1,0,1,1,3,Delayed
+RUN-03,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,16-Jun,5,0,1,33.4,2.5,0.4,0,0,2,On_Time
+RUN-03,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,11-Aug,29,0,1,25.1,2.2,0.4,1,2,10,Missed
+RUN-03,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,20-Aug,6.5,0,0,26,3.4,0.5,2,1,7,Delayed
+RUN-03,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,28-Jun,20,0,0,29,2,0.6,1,0,3,Delayed
+RUN-03,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,20-Aug,2.5,1,0,25.1,5.4,3,0,0,4,Delayed
+RUN-03,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,21-Aug,0,1,1,32.3,3.6,4,1,1,7,Delayed
+RUN-03,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,28-Aug,3,0,0,26.7,7.1,2.2,0,0,0,On_Time
+RUN-03,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,29-Sep,16,0,1,23.3,2.2,5.2,2,1,11,Missed
+RUN-03,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,25-Sep,14.5,0,0,31,3.2,13.9,1,0,8,Delayed
+RUN-03,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,In Progress,31-Aug,1.5,0,1,21.3,6.5,5,2,0,7,Delayed
+RUN-03,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,5-Oct,5,0,0,38.7,5.6,0,0,0,1,On_Time
+RUN-03,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,2-Jan,9.5,0,0,36.3,2.1,2.2,1,0,3,Delayed
+RUN-03,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,2-Jan,9.5,0,0,30.4,7.4,1.7,1,1,3,Delayed
+RUN-03,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,1-Jan,3,0,0,30,7.4,0.3,3,0,4,Delayed
+RUN-03,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,1-Jan,0,1,0,29.7,3.9,1.5,1,0,0,On_Time
+RUN-03,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,11-Jan,14,0,0,24.9,3.9,7.1,0,0,6,Delayed
+RUN-03,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,10-Jan,12.5,0,1,29.3,8.1,0,0,0,0,On_Time
+RUN-03,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,10-Jan,3,0,0,22.5,5.8,0.7,0,0,1,On_Time
+RUN-04,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,28-Nov,11,0,1,31.2,4.2,9.7,1,0,6,Delayed
+RUN-04,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,2-Dec,4.5,0,0,23.2,7.8,0.4,0,0,1,On_Time
+RUN-04,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,2-Dec,5.5,0,1,23.5,1.9,5.3,0,0,6,Delayed
+RUN-04,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,9-Dec,3.5,0,0,20.6,4.8,1.9,0,1,2,On_Time
+RUN-04,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,16-Dec,9.5,0,0,29,2.6,3.9,0,0,3,Delayed
+RUN-04,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,19-Nov,2.5,0,0,30.9,7.7,1.1,2,0,2,On_Time
+RUN-04,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,2-Jan,3,1,0,29.1,2.2,0,0,1,4,Delayed
+RUN-04,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,5-Jan,0,1,1,35.8,4.1,0.6,1,2,3,Delayed
+RUN-04,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Blocked,9-Jan,5,0,1,26.6,6.2,0.3,2,0,3,Delayed
+RUN-04,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,In Progress,23-Jan,5.5,0,0,30.3,6,0.8,1,1,4,Delayed
+RUN-04,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Progress,22-Jan,9,0,0,20.6,4.2,0,2,2,5,Delayed
+RUN-04,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,In Progress,15-Jan,5,0,0,24.5,3.7,7.9,0,0,3,Delayed
+RUN-04,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,In Progress,22-Jan,3,0,0,30.4,4,0,1,0,1,On_Time
+RUN-04,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,In Review,25-Jan,3.5,0,1,31.3,3.2,0,0,1,9,Delayed
+RUN-04,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,To Do,27-Jan,4,0,0,25,2.8,0.4,0,1,6,Delayed
+RUN-04,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,To Do,3-Feb,11,0,0,26.2,4.6,1.3,1,2,6,Delayed
+RUN-04,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Progress,7-Feb,3,0,0,18.3,3.2,0,0,1,1,On_Time
+RUN-04,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Progress,12-Feb,3.5,1,0,24.6,3.3,0,1,0,1,On_Time
+RUN-04,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,To Do,12-Feb,0,1,1,31.5,5.7,0,1,1,4,Delayed
+RUN-04,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,To Do,25-Feb,10.5,0,1,29.8,7.7,2.8,0,0,2,On_Time
+RUN-04,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,5-Mar,14.5,0,1,29.4,5.4,0,1,0,2,On_Time
+RUN-04,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,10-Mar,8.5,0,0,26.9,1.9,0,1,0,0,On_Time
+RUN-04,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,7-Mar,7,0,1,26.6,1.9,6.5,2,0,10,Missed
+RUN-04,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,15-Mar,10,0,1,23,7.6,5.7,0,1,6,Delayed
+RUN-04,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,16-Mar,3.5,0,1,30.5,3.4,1.4,1,1,5,Delayed
+RUN-04,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,22-Mar,6,0,0,28.9,2,9,3,1,14,Missed
+RUN-04,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,27-Mar,2.5,0,0,29.3,5.3,0,0,2,2,On_Time
+RUN-04,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,11-Apr,8.5,0,0,23.7,5.5,1.5,1,4,11,Missed
+RUN-04,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,21-Mar,6,0,1,14.8,5.7,1.6,0,1,5,Delayed
+RUN-04,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,25-Mar,4,0,1,32.6,3.2,2.6,2,0,7,Delayed
+RUN-04,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Progress,2-Apr,1.5,0,0,24,1.5,10.4,0,1,7,Delayed
+RUN-04,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,In Progress,11-Apr,12,0,0,21.9,7.7,7.7,0,4,9,Delayed
+RUN-04,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,23-Apr,17.5,0,1,30.4,3.1,0.4,2,0,7,Delayed
+RUN-04,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,In Progress,30-Apr,6,0,1,24.5,5.8,0,0,0,0,On_Time
+RUN-04,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,31-Mar,16.5,0,1,32.4,6,3,1,0,4,Delayed
+RUN-04,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,In Progress,25-Apr,7,0,1,30,5.4,2.6,2,0,6,Delayed
+RUN-04,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,22-Apr,5,0,0,30.4,3.5,0.8,1,0,0,On_Time
+RUN-04,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,2-May,6,0,1,19.1,3.2,7.2,0,1,5,Delayed
+RUN-04,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,13-Apr,9.5,0,1,33.3,5.3,0,1,0,4,Delayed
+RUN-04,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,21-Apr,6,0,0,28,7.1,6.7,2,1,6,Delayed
+RUN-04,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,6-May,4,0,0,24.6,7.6,7.2,0,0,0,On_Time
+RUN-04,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,6-May,4,0,1,27.4,2.1,5.1,0,1,6,Delayed
+RUN-04,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,13-May,4,1,1,16.8,2.4,2.1,0,1,5,Delayed
+RUN-04,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,17-May,0,1,1,28.9,7.6,3.5,0,2,7,Delayed
+RUN-04,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,27-May,10,0,1,20.9,6.2,0.6,0,2,4,Delayed
+RUN-04,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,13-Jun,10,0,1,19.2,7.2,4.1,1,2,5,Delayed
+RUN-04,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,23-May,5.5,0,0,18.2,2.8,0.7,2,0,1,On_Time
+RUN-04,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,17-Jun,6.5,0,0,32.7,5.3,4.4,0,1,3,Delayed
+RUN-04,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,15-Aug,32,0,1,23.1,6,1,1,0,5,Delayed
+RUN-04,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,20-Aug,10.5,0,0,35,5.9,0.5,0,3,6,Delayed
+RUN-04,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,1-Jul,27.5,0,1,23.7,4.1,0,2,1,7,Delayed
+RUN-04,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,In Progress,26-Aug,3,1,0,17.2,1.5,0,0,4,8,Delayed
+RUN-04,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,25-Aug,0,1,0,20.5,5.2,4.7,2,1,6,Delayed
+RUN-04,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,2-Sep,4,0,0,33.4,3.1,4.9,2,0,7,Delayed
+RUN-04,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,In Progress,28-Sep,21.5,0,0,25.8,4.4,2.7,0,1,3,Delayed
+RUN-04,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,2-Oct,18.5,0,0,23.6,7.7,0.6,1,0,0,On_Time
+RUN-04,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,2-Sep,3,0,1,27.5,4,0,1,1,3,Delayed
+RUN-04,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,7-Oct,7,0,1,29.4,6.9,0.1,0,1,3,Delayed
+RUN-04,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,5-Jan,16,0,1,32.8,2.7,0.7,4,1,12,Missed
+RUN-04,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,2-Jan,11,0,1,34.6,5.8,8.2,2,0,10,Missed
+RUN-04,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,5-Jan,3.5,0,0,24.6,7.8,0,1,0,0,On_Time
+RUN-04,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,4-Jan,0,1,1,19.3,2.1,1.6,1,1,5,Delayed
+RUN-04,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,12-Jan,20.5,0,1,24.3,1.5,0.4,0,0,5,Delayed
+RUN-04,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,11-Jan,19.5,0,1,28,4.3,0,0,1,6,Delayed
+RUN-04,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,14-Jan,4,0,1,21.3,2,2.7,0,2,13,Missed
+RUN-05,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,28-Nov,7,0,0,29.5,3.1,0,1,0,5,Delayed
+RUN-05,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,4-Dec,3,0,1,23.7,6.1,0,0,0,0,On_Time
+RUN-05,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,6-Dec,4.5,0,0,24.1,1.2,0,2,0,2,On_Time
+RUN-05,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,13-Dec,2.5,0,0,27.4,1.9,1.4,0,0,0,On_Time
+RUN-05,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,19-Dec,6.5,0,0,25.6,3,0.5,0,0,0,On_Time
+RUN-05,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,20-Nov,2,0,0,33.5,1.3,0,2,0,0,On_Time
+RUN-05,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,7-Jan,2,1,0,14.8,2.4,1.8,0,2,1,On_Time
+RUN-05,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,7-Jan,0,1,0,26.1,6.2,8.3,1,1,5,Delayed
+RUN-05,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,In Review,9-Jan,3,0,0,20.6,7,1.1,0,1,0,On_Time
+RUN-05,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,24-Jan,3.5,0,0,19.3,2.8,3.1,1,0,2,On_Time
+RUN-05,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Review,23-Jan,7,0,0,22,2.6,0,0,0,0,On_Time
+RUN-05,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Blocked,18-Jan,3.5,0,0,24.8,2.7,0,4,0,6,Delayed
+RUN-05,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,In Progress,20-Jan,2,0,0,25,2.6,3.1,1,0,2,On_Time
+RUN-05,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,To Do,24-Jan,2.5,0,0,16.1,1.1,0.7,2,1,7,Delayed
+RUN-05,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Progress,3-Feb,3,0,0,21.5,6.9,0.4,0,0,0,On_Time
+RUN-05,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,In Progress,3-Feb,7,0,0,26,2.2,0,0,0,0,On_Time
+RUN-05,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Blocked,6-Feb,2,0,1,19.7,3.6,0.4,0,0,3,Delayed
+RUN-05,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Blocked,15-Feb,2,1,1,18.3,0.9,0,0,0,2,On_Time
+RUN-05,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Blocked,14-Feb,0,1,0,12.1,6.4,0,2,0,3,Delayed
+RUN-05,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,In Review,28-Feb,7,0,0,20.8,5.6,2.6,0,1,5,Delayed
+RUN-05,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,8-Mar,9,0,1,18.2,7,1.5,0,0,0,On_Time
+RUN-05,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,14-Mar,6,0,0,19.1,5.9,0,1,1,0,On_Time
+RUN-05,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,14-Mar,3.5,0,0,23,2.9,0,0,1,3,Delayed
+RUN-05,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,13-Mar,5.5,0,1,21.2,2.4,2.8,0,0,0,On_Time
+RUN-05,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,17-Mar,2,0,0,18.1,5.4,0,0,0,1,On_Time
+RUN-05,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,27-Mar,3,0,0,12.8,3.2,5.4,0,0,0,On_Time
+RUN-05,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,31-Mar,1.5,0,0,26.1,4.5,1.9,2,0,4,Delayed
+RUN-05,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,13-Apr,5.5,0,0,28.6,0.9,0,0,0,1,On_Time
+RUN-05,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,23-Mar,3.5,0,0,22.3,1.2,0,1,0,0,On_Time
+RUN-05,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,27-Mar,2.5,0,1,23,4.3,3.7,0,0,4,Delayed
+RUN-05,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Progress,2-Apr,1.5,0,0,24.5,4.5,2,1,0,7,Delayed
+RUN-05,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,In Progress,11-Apr,8,0,1,33.2,5.7,2.9,1,1,6,Delayed
+RUN-05,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,25-Apr,9,0,0,15.9,1.7,4.8,1,0,3,Delayed
+RUN-05,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,In Progress,30-Apr,4,0,0,22.2,4.2,1.5,2,0,0,On_Time
+RUN-05,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,2-Apr,10.5,0,0,15,2.1,4.8,0,1,7,Delayed
+RUN-05,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,28-Apr,4.5,0,0,26.5,1.4,2.6,0,1,6,Delayed
+RUN-05,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,29-Apr,3,0,0,23.7,3.5,0.5,1,1,0,On_Time
+RUN-05,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,6-May,3,0,0,25.6,1.9,0.1,0,0,0,On_Time
+RUN-05,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,11-Apr,7,0,0,25.3,2.3,1.3,1,0,0,On_Time
+RUN-05,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,23-Apr,3,0,0,29.9,2.9,2.3,0,0,2,On_Time
+RUN-05,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,11-May,2.5,0,0,27.4,2.5,5.3,0,0,3,Delayed
+RUN-05,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,14-May,3,0,0,29,1.4,0,0,0,0,On_Time
+RUN-05,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,16-May,2.5,1,0,18.6,1.4,4.7,1,2,9,Delayed
+RUN-05,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,In Progress,19-May,0,1,0,31,2.1,5.8,2,0,6,Delayed
+RUN-05,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,30-May,6,0,0,20.5,1.2,0,0,0,0,On_Time
+RUN-05,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,16-Jun,7,0,1,20.8,4.9,0,0,1,5,Delayed
+RUN-05,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,22-May,3.5,0,0,26,2.7,13.9,0,1,4,Delayed
+RUN-05,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,22-Jun,4,0,0,26.1,2.7,3.8,1,0,6,Delayed
+RUN-05,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,19-Aug,21,0,0,18.6,3,4.5,0,1,4,Delayed
+RUN-05,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,24-Aug,6.5,0,0,23.5,5.1,15.1,0,0,8,Delayed
+RUN-05,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,7-Jul,18.5,0,0,32.7,6.5,2.7,1,0,1,On_Time
+RUN-05,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,26-Aug,2,1,0,16.4,5.8,0,0,1,0,On_Time
+RUN-05,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,31-Aug,0,1,0,32.6,5.6,5.3,2,1,7,Delayed
+RUN-05,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,4-Sep,3.5,0,0,23.2,4,2.8,1,1,4,Delayed
+RUN-05,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,5-Oct,17,0,0,11.6,5.3,2.5,3,0,7,Delayed
+RUN-05,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,5-Oct,14.5,0,0,17,4.4,0.9,0,1,0,On_Time
+RUN-05,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,8-Sep,2,0,0,19.2,2.2,4.1,1,0,2,On_Time
+RUN-05,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,11-Oct,5,0,0,21,2.2,0,4,1,10,Missed
+RUN-05,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,10-Jan,9,0,0,23.9,2.8,7.5,3,1,9,Delayed
+RUN-05,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,In Progress,7-Jan,7,0,0,9.6,6.8,0,0,0,0,On_Time
+RUN-05,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,In Progress,8-Jan,2.5,0,0,25.5,4.4,0.4,0,0,0,On_Time
+RUN-05,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,8-Jan,0,1,1,18.7,5.6,0,1,0,0,On_Time
+RUN-05,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,16-Jan,13,0,1,32.1,3.1,0,0,0,2,On_Time
+RUN-05,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,17-Jan,11.5,0,0,23,3.5,3.4,1,3,9,Delayed
+RUN-05,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,13-Jan,3,0,0,29.7,1.7,6.8,1,0,8,Delayed
+RUN-06,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,5-Dec,9,0,0,29.2,4.4,1.2,2,0,5,Delayed
+RUN-06,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,12-Dec,3.5,0,0,20.4,6.9,0.3,0,0,0,On_Time
+RUN-06,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,12-Dec,5.5,0,0,29.1,3.2,0,0,0,0,On_Time
+RUN-06,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,15-Dec,3.5,0,1,20.5,3,1.3,1,0,1,On_Time
+RUN-06,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,21-Dec,8.5,0,0,29.3,7.9,2.4,1,0,2,On_Time
+RUN-06,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,23-Nov,2.5,0,1,17.1,3.1,0,0,0,5,Delayed
+RUN-06,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,7-Jan,3,1,0,24.4,3.4,0.9,0,2,6,Delayed
+RUN-06,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,8-Jan,0,1,0,20.4,8.1,8.2,1,0,2,On_Time
+RUN-06,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,17-Jan,5,0,0,29.7,6.5,1.9,0,1,0,On_Time
+RUN-06,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,31-Jan,5,0,1,31.1,6.3,0,0,0,1,On_Time
+RUN-06,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,26-Jan,9.5,0,1,26,7.3,2.9,0,0,1,On_Time
+RUN-06,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,19-Jan,4,0,1,25.9,2.5,2.7,0,1,6,Delayed
+RUN-06,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,26-Jan,2.5,0,1,28.8,6.3,0,0,0,0,On_Time
+RUN-06,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,To Do,29-Jan,3.5,0,0,31.1,5,1.4,0,1,6,Delayed
+RUN-06,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Progress,5-Feb,3,0,0,25.2,7.1,0.1,0,0,0,On_Time
+RUN-06,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,In Review,9-Feb,7.5,0,0,22.2,5.1,0.1,2,0,3,Delayed
+RUN-06,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Progress,11-Feb,2,0,0,28.5,5.8,1.1,1,0,0,On_Time
+RUN-06,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Progress,15-Feb,2.5,1,0,14.7,4.9,0,0,1,0,On_Time
+RUN-06,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,In Progress,18-Feb,0,1,0,30,4.9,1.2,2,0,6,Delayed
+RUN-06,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,To Do,4-Mar,11.5,0,0,21,6.7,0,0,1,2,On_Time
+RUN-06,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,In Progress,9-Mar,9.5,0,0,23.6,5.8,0,0,1,0,On_Time
+RUN-06,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,In Progress,19-Mar,7.5,0,0,30,5.9,4.9,1,0,2,On_Time
+RUN-06,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Progress,17-Mar,5.5,0,0,22.7,4.7,7,0,1,7,Delayed
+RUN-06,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,21-Mar,7.5,0,0,28.5,5.2,1.7,2,0,3,Delayed
+RUN-06,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,17-Mar,3,0,0,31.2,6.6,0,0,0,0,On_Time
+RUN-06,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,31-Mar,4,0,0,25.6,7.1,4.8,1,3,12,Missed
+RUN-06,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,30-Mar,2.5,0,0,26.7,6.3,1.4,0,0,0,On_Time
+RUN-06,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,16-Apr,8.5,0,1,24.3,7.8,0,1,0,3,Delayed
+RUN-06,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,24-Mar,6.5,0,0,25.6,7.1,6.9,0,1,4,Delayed
+RUN-06,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,1-Apr,3.5,0,0,18.8,5.4,0,1,1,4,Delayed
+RUN-06,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,8-Apr,2,0,0,23.3,6.1,1.7,0,3,6,Delayed
+RUN-06,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,17-Apr,9,0,1,17.9,7.8,0.5,0,0,0,On_Time
+RUN-06,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,30-Apr,13,0,1,20,5.8,0.3,0,0,0,On_Time
+RUN-06,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,4-May,5.5,0,1,13.9,7.1,4.6,0,0,0,On_Time
+RUN-06,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,10-Apr,15,0,1,26.4,6.2,2.4,2,0,2,On_Time
+RUN-06,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,1-May,5,0,0,34.3,5.3,0,1,0,5,Delayed
+RUN-06,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,1-May,3.5,0,0,22.4,3.3,0.5,0,0,0,On_Time
+RUN-06,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,7-May,4.5,0,0,30.3,4.5,2,1,1,7,Delayed
+RUN-06,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,17-Apr,7.5,0,1,31.1,8,2.2,1,0,7,Delayed
+RUN-06,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,30-Apr,4,0,1,18.4,6,0.6,1,1,4,Delayed
+RUN-06,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,15-May,4,0,1,19.5,5.4,4.8,0,0,0,On_Time
+RUN-06,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,15-May,4,0,0,30.4,7.8,0.2,0,0,0,On_Time
+RUN-06,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,22-May,3.5,1,0,24.4,5.6,1.1,1,1,1,On_Time
+RUN-06,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,22-May,0,1,0,17.8,5.2,2.9,1,0,0,On_Time
+RUN-06,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,3-Jun,9,0,0,21.4,6.7,0.8,0,1,0,On_Time
+RUN-06,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,20-Jun,9,0,0,27.3,6.4,4.4,0,1,3,Delayed
+RUN-06,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,24-May,4,0,0,20.6,3,3.4,1,1,3,Delayed
+RUN-06,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,20-Jun,5,0,0,9.7,4.8,3.9,0,0,0,On_Time
+RUN-06,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,17-Aug,30,0,1,23.2,4.8,0.3,1,0,3,Delayed
+RUN-06,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,29-Aug,9.5,0,0,23.6,4.2,0,1,0,2,On_Time
+RUN-06,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,9-Jul,22,0,0,25,5.1,0.8,0,0,5,Delayed
+RUN-06,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,31-Aug,2.5,1,0,31.9,4.4,1.8,0,0,3,Delayed
+RUN-06,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,1-Sep,0,1,1,25.2,3,0,2,2,11,Missed
+RUN-06,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,10-Sep,4,0,1,26.3,4.4,0,0,0,3,Delayed
+RUN-06,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,7-Oct,25.5,0,1,30.8,2.2,3,0,0,6,Delayed
+RUN-06,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,5-Oct,18.5,0,1,25,5.5,6.6,0,0,0,On_Time
+RUN-06,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,9-Sep,2.5,0,1,36.7,7.3,3.4,2,1,7,Delayed
+RUN-06,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,10-Oct,7.5,0,1,18,6.5,0.9,0,2,3,Delayed
+RUN-06,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,12-Jan,13,0,0,19.8,4.1,0.8,0,1,3,Delayed
+RUN-06,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,8-Jan,11.5,0,1,28.3,2.3,3,0,0,7,Delayed
+RUN-06,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,10-Jan,3,0,0,31.8,3.1,0,0,0,5,Delayed
+RUN-06,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,13-Jan,0,1,0,23.8,5.3,0,0,0,0,On_Time
+RUN-06,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,18-Jan,17,0,0,19.4,3.1,1.9,0,0,0,On_Time
+RUN-06,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,16-Jan,17,0,1,34.6,5.3,4.3,0,0,5,Delayed
+RUN-06,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,17-Jan,3.5,0,1,20.6,3.3,0,0,1,3,Delayed
+RUN-07,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,8-Dec,8.5,0,0,28.3,2.4,3.1,1,0,4,Delayed
+RUN-07,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,15-Dec,3.5,0,0,22.6,2.4,22,1,0,10,Missed
+RUN-07,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,11-Dec,5.5,0,0,32.6,2.8,2.6,2,1,8,Delayed
+RUN-07,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,18-Dec,3.5,0,0,22.2,4.2,0,1,1,5,Delayed
+RUN-07,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,28-Dec,6.5,0,1,29.7,2.1,2.3,0,1,7,Delayed
+RUN-07,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,30-Nov,2,0,0,37.4,6.4,6.4,0,1,0,On_Time
+RUN-07,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,9-Jan,3,1,1,34.2,2.2,3.6,1,1,7,Delayed
+RUN-07,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,14-Jan,0,1,0,19.8,6.3,8.8,1,2,6,Delayed
+RUN-07,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,15-Jan,4.5,0,0,32,1.2,2.1,0,2,8,Delayed
+RUN-07,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,2-Feb,4.5,0,0,29.2,4.8,3.7,1,0,0,On_Time
+RUN-07,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,29-Jan,9,0,0,23.9,6.4,0,1,0,6,Delayed
+RUN-07,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,21-Jan,3.5,0,0,32.8,1.6,2.2,1,2,10,Missed
+RUN-07,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,26-Jan,2.5,0,0,28.2,6.8,0.6,2,1,5,Delayed
+RUN-07,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,2-Feb,3.5,0,1,28.2,3.4,0,1,3,13,Missed
+RUN-07,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,7-Feb,3,0,0,31.6,6.6,0.1,1,0,6,Delayed
+RUN-07,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,10-Feb,8.5,0,0,27.5,4.9,0,1,1,6,Delayed
+RUN-07,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Blocked,16-Feb,2,0,1,31.4,2.5,1.1,2,1,11,Missed
+RUN-07,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Review,20-Feb,3,1,0,27.6,1.7,1,2,2,9,Delayed
+RUN-07,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Blocked,19-Feb,0,1,0,27.9,2.5,5.4,0,0,1,On_Time
+RUN-07,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,In Progress,6-Mar,9.5,0,0,36.4,1.1,0,0,1,4,Delayed
+RUN-07,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,To Do,10-Mar,9.5,0,1,36.9,1.4,0,1,0,5,Delayed
+RUN-07,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,In Progress,23-Mar,7,0,1,21.5,1.2,0.7,2,1,7,Delayed
+RUN-07,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Progress,21-Mar,6,0,1,35,3.2,12.9,0,0,5,Delayed
+RUN-07,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Blocked,23-Mar,6.5,0,0,38.6,5.7,7.7,0,0,3,Delayed
+RUN-07,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,In Progress,23-Mar,2.5,0,0,39.5,1.4,8,1,0,3,Delayed
+RUN-07,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Progress,2-Apr,4,0,0,33.8,1.3,0,0,1,4,Delayed
+RUN-07,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,4-Apr,2,0,0,25.1,4.7,5.8,2,0,4,Delayed
+RUN-07,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,21-Apr,7.5,0,0,34.4,1.8,0.6,0,1,5,Delayed
+RUN-07,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,To Do,27-Mar,4.5,0,0,26.1,1.1,0,0,0,0,On_Time
+RUN-07,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,In Progress,6-Apr,3,0,1,29,1.6,0.1,2,0,13,Missed
+RUN-07,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,11-Apr,1.5,0,1,33,6.5,3.6,0,1,7,Delayed
+RUN-07,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,18-Apr,8.5,0,0,26.5,5.8,2.4,2,0,1,On_Time
+RUN-07,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,2-May,12,0,0,24.6,2.8,0,1,0,3,Delayed
+RUN-07,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,8-May,5.5,0,0,33.5,4.8,0,0,1,1,On_Time
+RUN-07,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,8-Apr,11.5,0,0,41.2,4,2.2,2,0,5,Delayed
+RUN-07,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,29-Apr,5,0,0,37.7,4.9,0,1,0,0,On_Time
+RUN-07,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,1-May,3.5,0,0,34.8,4.9,2.4,1,1,6,Delayed
+RUN-07,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,12-May,5,0,0,36.3,4.6,0,2,0,3,Delayed
+RUN-07,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,18-Apr,9,0,0,34.4,2.2,1.1,3,1,12,Missed
+RUN-07,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,1-May,4.5,0,0,33.4,0.8,6.8,2,0,10,Missed
+RUN-07,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,15-May,3,0,1,35.8,3.5,3.6,1,1,11,Missed
+RUN-07,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,20-May,3,0,0,23.4,6.3,0,0,1,0,On_Time
+RUN-07,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,21-May,3,1,0,32,4.2,1.1,1,1,6,Delayed
+RUN-07,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,In Progress,22-May,0,1,0,30.5,5.9,4,1,1,6,Delayed
+RUN-07,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,In Progress,7-Jun,7.5,0,0,31.3,6.9,7.1,1,1,5,Delayed
+RUN-07,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,22-Jun,9,0,1,28.4,1.6,2.2,0,1,5,Delayed
+RUN-07,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,27-May,4.5,0,0,33.8,5,0,0,1,6,Delayed
+RUN-07,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,23-Jun,6,0,0,26.4,4.9,8.1,2,0,6,Delayed
+RUN-07,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,In Progress,22-Aug,32,0,0,28,6.9,4.5,1,1,9,Delayed
+RUN-07,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,28-Aug,8,0,0,27.3,6.9,2.4,1,0,0,On_Time
+RUN-07,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,15-Jul,22,0,0,35.7,5,0,1,2,6,Delayed
+RUN-07,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,4-Sep,2.5,1,0,30.8,2.1,0,1,2,6,Delayed
+RUN-07,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,4-Sep,0,1,0,28.4,5.7,0,1,3,7,Delayed
+RUN-07,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,8-Sep,3,0,0,28.9,1.2,1.8,0,1,2,On_Time
+RUN-07,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,10-Oct,22,0,0,30.9,5.6,21.9,1,0,11,Missed
+RUN-07,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,7-Oct,13.5,0,0,39.8,6.4,2.6,2,0,2,On_Time
+RUN-07,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,15-Sep,2,0,0,24.1,3,2.7,2,3,8,Delayed
+RUN-07,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,18-Oct,6,0,0,34.6,4.6,3.4,1,0,5,Delayed
+RUN-07,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,13-Jan,13,0,1,33.5,3.3,10,3,0,14,Missed
+RUN-07,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,11-Jan,10.5,0,1,26.1,3.3,6.5,1,0,6,Delayed
+RUN-07,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,14-Jan,3,0,0,39,2.5,0,0,0,0,On_Time
+RUN-07,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,16-Jan,0,1,0,33.9,5.4,5.1,1,1,3,Delayed
+RUN-07,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,21-Jan,16.5,0,0,28.1,6.6,3.6,0,0,0,On_Time
+RUN-07,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,23-Jan,14,0,0,20.7,6.6,0,1,0,2,On_Time
+RUN-07,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,In Progress,18-Jan,3.5,0,0,32.2,1.6,0.9,1,0,5,Delayed
+RUN-08,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,9-Dec,6.5,0,0,25,4,0,1,0,0,On_Time
+RUN-08,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,14-Dec,2.5,0,1,17.1,1.3,2.7,0,1,5,Delayed
+RUN-08,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,15-Dec,4.5,0,0,24.3,1.4,9.4,0,0,0,On_Time
+RUN-08,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,21-Dec,2.5,0,1,20,4.1,0,0,0,0,On_Time
+RUN-08,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,27-Dec,5.5,0,0,18.7,6.7,0,0,0,0,On_Time
+RUN-08,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,4-Dec,2,0,0,18.2,2.6,0,2,0,2,On_Time
+RUN-08,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,14-Jan,2.5,1,0,23.4,6.2,0.6,0,2,1,On_Time
+RUN-08,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,16-Jan,0,1,1,21.1,5.5,0.4,0,1,3,Delayed
+RUN-08,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,20-Jan,4,0,0,31.9,2.2,2.8,1,0,7,Delayed
+RUN-08,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,4-Feb,4,0,0,14.6,0.8,6.5,0,1,6,Delayed
+RUN-08,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,31-Jan,6,0,1,22.2,1.2,2.1,1,0,8,Delayed
+RUN-08,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,25-Jan,3,0,0,16.4,5.3,17,0,0,3,Delayed
+RUN-08,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,1-Feb,2.5,0,1,14.6,1.9,0,0,1,4,Delayed
+RUN-08,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,3-Feb,2.5,0,0,19.3,3,0.3,3,1,7,Delayed
+RUN-08,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,11-Feb,3,0,1,20.1,3.8,16.1,3,0,12,Missed
+RUN-08,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,In Review,14-Feb,5.5,0,0,35.4,5.3,1.7,1,0,4,Delayed
+RUN-08,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,17-Feb,1.5,0,0,18.3,1.3,0,0,0,0,On_Time
+RUN-08,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Review,25-Feb,2,1,0,13.1,3.2,2.7,1,1,5,Delayed
+RUN-08,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,27-Feb,0,1,0,20.8,3.7,1.2,1,0,0,On_Time
+RUN-08,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,In Progress,8-Mar,8,0,0,8,4.1,0.3,2,1,2,On_Time
+RUN-08,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,In Progress,14-Mar,9.5,0,0,18.8,5.9,0,0,0,3,Delayed
+RUN-08,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,To Do,24-Mar,7.5,0,0,19.4,1.7,1.9,0,2,4,Delayed
+RUN-08,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Progress,20-Mar,4.5,0,0,23.7,5.8,0,1,0,2,On_Time
+RUN-08,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,22-Mar,6,0,0,24.7,5.1,2.8,2,1,10,Missed
+RUN-08,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,25-Mar,2.5,0,0,16.6,4.2,22,0,0,1,On_Time
+RUN-08,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Progress,3-Apr,3.5,0,1,18.5,5.1,1.1,0,0,3,Delayed
+RUN-08,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,In Progress,4-Apr,1.5,0,0,15.1,3.2,1.1,1,1,5,Delayed
+RUN-08,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,24-Apr,6,0,0,13.1,1.5,0.6,0,1,6,Delayed
+RUN-08,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,In Progress,30-Mar,4,0,0,21,4.9,0.6,0,0,0,On_Time
+RUN-08,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,5-Apr,2.5,0,0,12.3,4,1.1,1,0,4,Delayed
+RUN-08,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,12-Apr,1.5,0,0,17.1,4.7,5.1,0,1,1,On_Time
+RUN-08,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,24-Apr,8,0,0,13.9,2.8,7.7,3,1,13,Missed
+RUN-08,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,4-May,10,0,0,22.4,6.5,12,0,2,7,Delayed
+RUN-08,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,7-May,4,0,1,29.2,4.4,0.9,1,0,5,Delayed
+RUN-08,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,13-Apr,10.5,0,0,12.2,1.1,7,2,2,12,Missed
+RUN-08,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,4-May,4.5,0,0,9.1,3.5,1.3,2,0,0,On_Time
+RUN-08,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,5-May,3,0,0,18.6,5.5,0.4,1,1,0,On_Time
+RUN-08,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,14-May,3.5,0,0,19.4,5.7,6.7,0,1,3,Delayed
+RUN-08,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,22-Apr,7.5,0,0,20.5,3.8,3.3,0,0,0,On_Time
+RUN-08,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,4-May,4,0,0,16.9,6.4,0.6,2,1,5,Delayed
+RUN-08,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,19-May,2.5,0,0,18.2,2.3,1.8,0,0,0,On_Time
+RUN-08,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,22-May,2.5,0,0,21.4,3.2,0,1,1,7,Delayed
+RUN-08,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,25-May,3,1,0,25.1,6.4,0,1,2,5,Delayed
+RUN-08,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,29-May,0,1,0,8.6,6.4,2,0,0,0,On_Time
+RUN-08,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,In Progress,8-Jun,7,0,1,17.3,5,14.8,0,0,6,Delayed
+RUN-08,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,23-Jun,8.5,0,0,20.5,6.2,0.2,1,1,2,On_Time
+RUN-08,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,1-Jun,4,0,1,14.3,1.1,1.4,1,2,9,Delayed
+RUN-08,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,1-Jul,4.5,0,1,28.9,6.2,0,0,0,0,On_Time
+RUN-08,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,28-Aug,24.5,0,0,15.8,2.7,2.3,0,0,3,Delayed
+RUN-08,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,1-Sep,6,0,0,19.1,1.7,0,2,0,3,Delayed
+RUN-08,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,17-Jul,16,0,0,22.4,2.1,4.3,0,0,0,On_Time
+RUN-08,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,4-Sep,2,1,0,16.1,3.3,6.8,0,1,8,Delayed
+RUN-08,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,6-Sep,0,1,0,9.2,2.2,0,1,0,0,On_Time
+RUN-08,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,13-Sep,3,0,0,17,2.7,5.3,2,0,5,Delayed
+RUN-08,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,10-Oct,17.5,0,0,25,1.4,6.2,1,2,9,Delayed
+RUN-08,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Progress,12-Oct,14,0,1,17.5,2.5,2.6,1,1,8,Delayed
+RUN-08,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,19-Sep,1.5,0,0,14.7,4.3,0,0,1,0,On_Time
+RUN-08,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,21-Oct,5.5,0,1,24.4,3.4,1.2,0,0,4,Delayed
+RUN-08,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,16-Jan,9,0,0,17.5,2.8,0,0,2,9,Delayed
+RUN-08,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,16-Jan,8,0,0,16.5,5.4,1.2,0,0,0,On_Time
+RUN-08,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,17-Jan,3,0,0,20.2,6.4,2.1,0,1,3,Delayed
+RUN-08,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,19-Jan,0,1,0,23.6,5.5,1.1,1,0,0,On_Time
+RUN-08,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,23-Jan,13.5,0,0,32.4,2.7,0,0,0,5,Delayed
+RUN-08,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,26-Jan,14.5,0,0,23.9,5.4,1.2,0,0,5,Delayed
+RUN-08,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,22-Jan,3,0,1,25.7,1.6,0.3,2,1,8,Delayed
+RUN-09,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,In Review,12-Dec,6,0,0,15.4,4.6,0,1,2,6,Delayed
+RUN-09,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,16-Dec,2.5,0,0,26.7,5.7,0,1,0,0,On_Time
+RUN-09,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,20-Dec,3.5,0,0,26.8,1.5,2.4,0,0,0,On_Time
+RUN-09,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,24-Dec,2.5,0,0,28.7,7.1,1,1,1,8,Delayed
+RUN-09,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,In Review,30-Dec,5,0,0,28.8,4.3,0,1,1,8,Delayed
+RUN-09,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,2-Dec,1.5,0,1,34.8,3.6,0,0,0,0,On_Time
+RUN-09,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,17-Jan,2,1,0,15.6,2.3,0.5,1,1,7,Delayed
+RUN-09,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,16-Jan,0,1,0,18.5,4.2,5.7,1,0,1,On_Time
+RUN-09,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,In Review,25-Jan,3,0,0,28.7,4.6,1.2,0,0,0,On_Time
+RUN-09,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,9-Feb,4,0,0,19,4,0.7,2,0,2,On_Time
+RUN-09,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,6-Feb,6,0,0,17.1,5.8,1.5,0,0,0,On_Time
+RUN-09,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,28-Jan,2.5,0,0,35.3,4.1,1,1,1,7,Delayed
+RUN-09,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,6-Feb,2,0,0,16.2,7.6,3.4,1,0,0,On_Time
+RUN-09,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,4-Feb,2.5,0,0,23.1,5.3,8.7,1,1,4,Delayed
+RUN-09,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,16-Feb,2,0,1,24.8,6.6,1.4,1,0,0,On_Time
+RUN-09,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,18-Feb,6,0,0,32.3,2.1,4.9,1,0,3,Delayed
+RUN-09,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Review,22-Feb,1.5,0,0,14.8,4,0,0,0,0,On_Time
+RUN-09,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Review,1-Mar,2,1,1,27.4,3.6,0.4,2,0,5,Delayed
+RUN-09,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,28-Feb,0,1,0,20.2,5.1,2.9,0,1,0,On_Time
+RUN-09,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,11-Mar,7.5,0,0,28.5,7,1.8,0,0,0,On_Time
+RUN-09,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,21-Mar,8.5,0,0,20.1,1.9,2.6,0,0,4,Delayed
+RUN-09,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,28-Mar,6.5,0,0,33.7,1.9,5.4,0,1,9,Delayed
+RUN-09,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Progress,23-Mar,3.5,0,0,20.1,6.9,0,1,0,0,On_Time
+RUN-09,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Blocked,25-Mar,4.5,0,1,11.5,2.8,5.7,1,0,5,Delayed
+RUN-09,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,In Review,27-Mar,2,0,0,20.7,5.7,3.4,0,0,3,Delayed
+RUN-09,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Progress,6-Apr,3.5,0,0,23.6,4.9,1.7,0,0,0,On_Time
+RUN-09,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,In Review,11-Apr,1.5,0,0,31,6.8,2.3,0,0,0,On_Time
+RUN-09,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,26-Apr,6,0,0,18.2,2.2,0,0,0,0,On_Time
+RUN-09,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,In Review,6-Apr,3.5,0,0,18.3,2.2,10.1,1,0,6,Delayed
+RUN-09,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,In Progress,12-Apr,2.5,0,0,30.4,5,0,1,0,3,Delayed
+RUN-09,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,14-Apr,1,0,1,17.5,7.5,0.1,1,0,0,On_Time
+RUN-09,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Blocked,23-Apr,6,0,1,24.1,4.1,1,1,2,9,Delayed
+RUN-09,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,6-May,9,0,0,24.2,3.5,0,2,0,3,Delayed
+RUN-09,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,14-May,3.5,0,1,26.3,5.3,0.1,0,0,0,On_Time
+RUN-09,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,17-Apr,9.5,0,0,21,7.4,0,0,0,0,On_Time
+RUN-09,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,In Progress,9-May,3.5,0,0,20,6.8,0,1,1,1,On_Time
+RUN-09,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,10-May,2.5,0,0,26.9,7.9,1,0,2,5,Delayed
+RUN-09,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,17-May,3,0,1,20.2,1.5,1.4,0,0,1,On_Time
+RUN-09,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,23-Apr,6.5,0,0,17.6,2.1,0.7,0,0,0,On_Time
+RUN-09,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,6-May,3,0,0,31.8,5.4,0.4,1,0,0,On_Time
+RUN-09,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,In Progress,23-May,2,0,0,27.8,6.7,2.9,2,0,4,Delayed
+RUN-09,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,24-May,3,0,0,34.8,3.2,1.8,1,0,3,Delayed
+RUN-09,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,30-May,2.5,1,1,29.4,2.9,0,1,1,4,Delayed
+RUN-09,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,31-May,0,1,0,18.1,6.5,0,1,0,2,On_Time
+RUN-09,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,14-Jun,5,0,0,25.6,1.8,2.2,0,0,3,Delayed
+RUN-09,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,30-Jun,6.5,0,0,19.5,3.8,0.2,1,1,2,On_Time
+RUN-09,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,4-Jun,3,0,0,16,4.7,0.4,1,1,4,Delayed
+RUN-09,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,30-Jun,3.5,0,0,22.6,5,0.2,1,0,1,On_Time
+RUN-09,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,27-Aug,22.5,0,0,30.5,6.1,4.1,1,0,6,Delayed
+RUN-09,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Progress,7-Sep,7,0,0,26.6,3.7,0,0,0,0,On_Time
+RUN-09,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,16-Jul,13.5,0,0,17.4,5.4,0,0,1,4,Delayed
+RUN-09,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,12-Sep,2,1,0,22.4,5.2,3.1,1,1,2,On_Time
+RUN-09,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,8-Sep,0,1,0,24.3,4.9,2.7,2,0,2,On_Time
+RUN-09,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,14-Sep,3,0,0,15.8,5.6,1.6,1,0,6,Delayed
+RUN-09,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,17-Oct,17,0,0,29,3.1,0,0,0,2,On_Time
+RUN-09,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,13-Oct,10.5,0,0,23.8,1.9,0.1,1,1,4,Delayed
+RUN-09,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,19-Sep,1.5,0,1,17.4,2.2,0,1,0,0,On_Time
+RUN-09,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,20-Oct,4.5,0,0,17.1,2.8,0,0,0,2,On_Time
+RUN-09,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,18-Jan,9.5,0,0,31.1,4.6,1.7,0,0,0,On_Time
+RUN-09,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,18-Jan,6.5,0,0,23,6.9,1.1,1,0,0,On_Time
+RUN-09,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,22-Jan,2,0,0,31.6,5.9,0.8,1,0,0,On_Time
+RUN-09,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,23-Jan,0,1,0,33.7,6.5,0,0,0,2,On_Time
+RUN-09,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,29-Jan,12,0,0,30.7,3.7,2.9,0,0,4,Delayed
+RUN-09,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,In Progress,25-Jan,11,0,0,22.1,4,5,0,0,1,On_Time
+RUN-09,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,26-Jan,2.5,0,0,11.3,3.9,1,0,0,0,On_Time
+RUN-10,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,13-Dec,12.5,0,0,19.1,2.5,0,1,1,7,Delayed
+RUN-10,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,In Review,22-Dec,4,0,0,11.8,4.4,0.3,1,0,5,Delayed
+RUN-10,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,25-Dec,7.5,0,1,20.2,7.7,3.8,1,0,3,Delayed
+RUN-10,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,26-Dec,3.5,0,0,16,6.3,2.2,1,0,0,On_Time
+RUN-10,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,3-Jan,9,0,1,8,6.6,0.2,0,1,5,Delayed
+RUN-10,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,10-Dec,2.5,0,1,21.1,1.6,1.9,1,0,6,Delayed
+RUN-10,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,In Review,20-Jan,3,1,1,21.8,4.4,1.9,0,0,0,On_Time
+RUN-10,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,22-Jan,0,1,0,18.1,5.6,0,0,0,0,On_Time
+RUN-10,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,27-Jan,5.5,0,1,9.1,6.8,0,1,0,0,On_Time
+RUN-10,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,10-Feb,6.5,0,0,11.6,1.7,0.5,0,0,1,On_Time
+RUN-10,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,9-Feb,10.5,0,1,14.1,6.9,4.8,0,0,3,Delayed
+RUN-10,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,2-Feb,5.5,0,0,9.4,4.9,4.9,0,1,0,On_Time
+RUN-10,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,8-Feb,3.5,0,1,22.6,2.6,0,1,0,2,On_Time
+RUN-10,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,11-Feb,4.5,0,1,14.1,3.4,2.6,0,0,0,On_Time
+RUN-10,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,19-Feb,3.5,0,1,8,3.2,0.2,1,0,1,On_Time
+RUN-10,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,23-Feb,10,0,0,15.1,4.8,0,0,0,0,On_Time
+RUN-10,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,25-Feb,2.5,0,1,11.4,1.7,0,1,0,2,On_Time
+RUN-10,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,28-Feb,3,1,0,12.9,2.4,0,1,0,0,On_Time
+RUN-10,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,2-Mar,0,1,0,11.2,6.6,3,0,0,0,On_Time
+RUN-10,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,14-Mar,12,0,1,17.7,2.2,0,2,0,6,Delayed
+RUN-10,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,23-Mar,12.5,0,1,19.4,2.9,1.2,0,0,2,On_Time
+RUN-10,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,30-Mar,9,0,1,14.8,4.3,5.1,0,1,4,Delayed
+RUN-10,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Review,30-Mar,6,0,1,11.4,4.7,0,0,0,0,On_Time
+RUN-10,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,30-Mar,8,0,1,13,6.3,0,0,0,0,On_Time
+RUN-10,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,2-Apr,3.5,0,0,13.4,4.3,9.4,0,0,0,On_Time
+RUN-10,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,13-Apr,5.5,0,1,8.9,6.5,0,1,0,0,On_Time
+RUN-10,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,In Progress,12-Apr,3,0,0,16.4,5.4,0.3,1,0,4,Delayed
+RUN-10,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Progress,28-Apr,10,0,1,15.8,2.1,0.7,0,1,3,Delayed
+RUN-10,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,In Progress,5-Apr,5.5,0,1,21.7,2.4,0,0,0,1,On_Time
+RUN-10,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,13-Apr,4.5,0,0,20.2,4.2,0.7,0,2,6,Delayed
+RUN-10,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Progress,19-Apr,2,0,1,9.5,3.9,0,2,0,12,Missed
+RUN-10,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Blocked,25-Apr,11.5,0,1,17.8,6.2,6.5,0,0,0,On_Time
+RUN-10,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,7-May,16,0,0,8,5.1,0.3,0,0,1,On_Time
+RUN-10,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,In Progress,13-May,7.5,0,0,17.1,3.9,2.4,2,0,2,On_Time
+RUN-10,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,In Review,21-Apr,16,0,1,10.4,2.5,0,1,0,3,Delayed
+RUN-10,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,8-May,7.5,0,1,8,2.8,1.7,0,1,3,Delayed
+RUN-10,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,11-May,4,0,0,14.8,5.1,4.5,0,0,0,On_Time
+RUN-10,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,21-May,5,0,1,8,4.1,0,2,0,4,Delayed
+RUN-10,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,1-May,9.5,0,0,8,4.7,0.4,0,1,0,On_Time
+RUN-10,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,12-May,5.5,0,1,12.3,2.5,1.9,0,0,4,Delayed
+RUN-10,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,26-May,4.5,0,1,13.7,5.7,2.3,0,0,1,On_Time
+RUN-10,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,26-May,5.5,0,0,11.2,6.9,0,1,0,0,On_Time
+RUN-10,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,In Progress,31-May,4,1,0,8,3,0.7,1,0,0,On_Time
+RUN-10,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,In Progress,1-Jun,0,1,0,8.8,4.6,0.5,0,0,0,On_Time
+RUN-10,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,17-Jun,8.5,0,1,15.4,7.7,0,0,0,0,On_Time
+RUN-10,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,29-Jun,12,0,0,16.5,3.5,4.7,0,0,0,On_Time
+RUN-10,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,9-Jun,5.5,0,0,13.2,5.2,1.1,1,0,0,On_Time
+RUN-10,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,6-Jul,6,0,1,19.6,2,3.4,0,0,1,On_Time
+RUN-10,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,31-Aug,37,0,0,15.5,5.3,0,1,0,2,On_Time
+RUN-10,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,9-Sep,11.5,0,0,9.2,1.9,1,2,0,0,On_Time
+RUN-10,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,24-Jul,28.5,0,0,11.7,7.6,0.3,0,0,3,Delayed
+RUN-10,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,14-Sep,3.5,1,0,8,6,1,2,0,0,On_Time
+RUN-10,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,11-Sep,0,1,0,12.7,6.5,1.4,0,1,3,Delayed
+RUN-10,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,22-Sep,4.5,0,0,19.4,5.9,0,0,0,0,On_Time
+RUN-10,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,20-Oct,30,0,0,17,5.2,1.1,1,0,1,On_Time
+RUN-10,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Progress,19-Oct,21,0,1,21,4.3,2.8,0,2,6,Delayed
+RUN-10,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,23-Sep,2.5,0,1,11.6,6.9,2.1,1,0,7,Delayed
+RUN-10,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,24-Oct,7.5,0,1,20.7,7.6,1.8,0,0,4,Delayed
+RUN-10,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,21-Jan,17,0,0,12.2,4.6,4.4,0,0,1,On_Time
+RUN-10,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,21-Jan,11.5,0,1,21.4,7.4,0,1,1,5,Delayed
+RUN-10,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,20-Jan,3.5,0,0,13.1,5.2,1.5,1,0,0,On_Time
+RUN-10,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,22-Jan,0,1,1,17.2,4.9,2.8,0,1,4,Delayed
+RUN-10,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,28-Jan,19.5,0,0,21.4,4.3,0,0,0,0,On_Time
+RUN-10,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,29-Jan,18,0,0,12.2,2.7,0,0,0,0,On_Time
+RUN-10,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,29-Jan,5,0,0,14.5,1.4,0.3,0,0,0,On_Time
+RUN-11,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,20-Dec,6,0,1,19.2,6.7,6.1,0,0,4,Delayed
+RUN-11,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,25-Dec,3,0,1,16.1,0.8,0,1,0,1,On_Time
+RUN-11,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,24-Dec,3.5,0,0,20.5,0.9,0,1,0,5,Delayed
+RUN-11,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,1-Jan,3,0,0,8,1.8,1.2,1,1,2,On_Time
+RUN-11,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,10-Jan,6,0,0,27.1,1.7,0,0,0,2,On_Time
+RUN-11,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,In Review,11-Dec,2,0,0,16.4,1.8,2.3,0,0,0,On_Time
+RUN-11,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,25-Jan,2,1,0,18.7,5,6.8,2,1,5,Delayed
+RUN-11,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,26-Jan,0,1,1,26.1,3.6,2.7,0,0,2,On_Time
+RUN-11,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,31-Jan,3.5,0,0,22.8,7,2,2,0,3,Delayed
+RUN-11,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,10-Feb,4.5,0,0,19.7,2.1,4.4,0,0,1,On_Time
+RUN-11,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,9-Feb,7,0,1,10.9,2.6,8.5,0,0,2,On_Time
+RUN-11,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,5-Feb,3.5,0,1,29.3,7,0,1,1,5,Delayed
+RUN-11,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,11-Feb,2,0,0,26.1,6,0.8,0,1,0,On_Time
+RUN-11,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,12-Feb,2,0,0,33.4,3.7,2.8,1,1,9,Delayed
+RUN-11,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,22-Feb,2.5,0,1,18.9,4.2,2,1,1,5,Delayed
+RUN-11,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,26-Feb,7,0,1,14.1,6.1,13,0,0,3,Delayed
+RUN-11,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,27-Feb,1.5,0,0,27.6,3.7,1.8,1,0,6,Delayed
+RUN-11,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,2-Mar,2,1,0,21.1,1.9,0.2,0,1,3,Delayed
+RUN-11,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,3-Mar,0,1,0,25.6,6,10.9,1,2,6,Delayed
+RUN-11,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,19-Mar,7.5,0,1,31,4.1,5.3,0,1,5,Delayed
+RUN-11,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,25-Mar,9,0,0,24.3,1.6,0.6,0,0,2,On_Time
+RUN-11,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,4-Apr,5.5,0,1,23.1,3.9,0,0,0,1,On_Time
+RUN-11,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,31-Mar,4,0,1,23.4,3.3,1.2,0,1,6,Delayed
+RUN-11,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,2-Apr,5,0,1,13.1,6.3,1.4,0,1,1,On_Time
+RUN-11,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,5-Apr,2.5,0,1,28.2,1.4,6.8,1,0,8,Delayed
+RUN-11,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Review,16-Apr,3,0,1,28.6,6.3,2.2,1,1,0,On_Time
+RUN-11,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,18-Apr,2,0,0,25.1,3.9,0.4,0,0,0,On_Time
+RUN-11,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,4-May,5.5,0,1,13.8,3.2,0,0,1,2,On_Time
+RUN-11,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,12-Apr,4.5,0,0,21.5,1.7,3.7,2,0,4,Delayed
+RUN-11,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,To Do,15-Apr,3,0,1,30,5.2,0.6,0,0,1,On_Time
+RUN-11,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Progress,20-Apr,1,0,0,19,6.6,0,1,0,1,On_Time
+RUN-11,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,2-May,7,0,1,28.6,3,0,0,2,5,Delayed
+RUN-11,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,14-May,11,0,0,22.4,2.2,1.2,1,0,0,On_Time
+RUN-11,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,21-May,4,0,0,26.1,4.2,3.4,1,0,0,On_Time
+RUN-11,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,20-Apr,9,0,0,19.9,5.8,6.2,2,1,9,Delayed
+RUN-11,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Blocked,15-May,4.5,0,1,22.6,0.8,1.8,0,0,0,On_Time
+RUN-11,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,In Progress,15-May,3.5,0,1,24.5,4.7,1.4,0,2,5,Delayed
+RUN-11,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,In Progress,23-May,3.5,0,1,16.2,4.5,0.8,1,0,4,Delayed
+RUN-11,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Progress,1-May,6,0,0,23.6,2.7,2.7,2,0,4,Delayed
+RUN-11,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,16-May,3,0,0,8,3.5,6.1,1,0,5,Delayed
+RUN-11,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,30-May,2,0,1,18.8,2.2,1.1,0,1,0,On_Time
+RUN-11,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,28-May,3,0,1,25.1,5.7,1.5,0,1,2,On_Time
+RUN-11,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,5-Jun,2.5,1,1,28.3,4.7,1.5,0,0,4,Delayed
+RUN-11,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,6-Jun,0,1,0,24.7,4.1,2.4,0,0,0,On_Time
+RUN-11,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,21-Jun,7,0,1,14.5,3.2,0.7,1,0,6,Delayed
+RUN-11,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,6-Jul,6,0,0,27.8,2.5,5,1,1,6,Delayed
+RUN-11,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,12-Jun,3.5,0,1,15.9,6,1,1,0,3,Delayed
+RUN-11,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,5-Jul,4,0,1,25.5,3.5,3.5,0,0,5,Delayed
+RUN-11,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,1-Sep,22,0,1,16.1,3.9,2.1,0,0,4,Delayed
+RUN-11,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Progress,11-Sep,7,0,1,17.9,4,2.5,2,0,4,Delayed
+RUN-11,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,26-Jul,15,0,0,16.9,3.5,0.6,0,1,4,Delayed
+RUN-11,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,14-Sep,2,1,1,22.9,2.3,3.8,0,1,4,Delayed
+RUN-11,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,17-Sep,0,1,0,21.1,1.4,0.6,0,0,0,On_Time
+RUN-11,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,25-Sep,3,0,0,24.9,1.2,0.3,2,1,4,Delayed
+RUN-11,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,22-Oct,19,0,1,22,5.5,0,1,1,6,Delayed
+RUN-11,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,18-Oct,13.5,0,1,13.8,2.1,3.6,1,0,8,Delayed
+RUN-11,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,24-Sep,2,0,0,23.7,1,0,0,3,7,Delayed
+RUN-11,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,28-Oct,5,0,0,12.4,5.8,0,0,0,0,On_Time
+RUN-11,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,24-Jan,9,0,1,17.3,1.6,4.7,0,1,13,Missed
+RUN-11,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,27-Jan,7.5,0,1,20.1,4.7,4.8,2,0,6,Delayed
+RUN-11,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,25-Jan,2.5,0,0,19.8,2.8,0.8,1,0,2,On_Time
+RUN-11,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,25-Jan,0,1,0,13.1,1.4,0,1,1,5,Delayed
+RUN-11,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,31-Jan,12.5,0,0,29.7,3.3,0,0,0,2,On_Time
+RUN-11,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,4-Feb,12.5,0,0,31.2,0.8,2.9,0,1,8,Delayed
+RUN-11,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,30-Jan,3,0,0,34.5,6.1,5.7,1,0,3,Delayed
+RUN-12,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,20-Dec,12,0,1,34.8,3.9,0,1,0,0,On_Time
+RUN-12,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,25-Dec,5,0,1,37.1,3.7,0,0,1,1,On_Time
+RUN-12,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,31-Dec,6,0,1,33.2,5.9,5.6,0,0,1,On_Time
+RUN-12,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,30-Dec,4,0,0,22.7,4.3,0.5,1,1,3,Delayed
+RUN-12,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,13-Jan,8.5,0,1,27.3,2.9,0,1,3,15,Missed
+RUN-12,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,12-Dec,2.5,0,1,42,2.5,2.7,1,0,9,Delayed
+RUN-12,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,27-Jan,3,1,1,27.9,1.1,1,1,1,8,Delayed
+RUN-12,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,27-Jan,0,1,0,42,4.6,0.1,2,1,6,Delayed
+RUN-12,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,1-Feb,5.5,0,0,40,2.3,5.9,0,0,5,Delayed
+RUN-12,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,In Review,13-Feb,6.5,0,0,33.5,1.8,0.7,0,1,3,Delayed
+RUN-12,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,14-Feb,10.5,0,0,32.2,5.1,7.1,0,0,7,Delayed
+RUN-12,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,10-Feb,6,0,1,28.1,5.3,0,0,1,3,Delayed
+RUN-12,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,14-Feb,3,0,1,30.1,5.7,3.9,0,0,2,On_Time
+RUN-12,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,15-Feb,4,0,0,26.8,4.1,0.6,0,0,0,On_Time
+RUN-12,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,22-Feb,3.5,0,1,30.3,6.6,0,0,2,5,Delayed
+RUN-12,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,1-Mar,9.5,0,0,23.1,6.9,0,1,1,4,Delayed
+RUN-12,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,3-Mar,3,0,0,22.8,6.1,0,1,2,2,On_Time
+RUN-12,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,7-Mar,3.5,1,0,37.8,5,1,1,0,1,On_Time
+RUN-12,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,10-Mar,0,1,0,21.7,2.8,1,0,4,10,Missed
+RUN-12,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,21-Mar,12,0,1,35.5,7.2,0.5,0,1,1,On_Time
+RUN-12,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,26-Mar,14,0,0,20.2,2.6,0,0,0,3,Delayed
+RUN-12,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,8-Apr,8.5,0,1,34.1,2.1,4.2,0,1,6,Delayed
+RUN-12,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,4-Apr,6,0,0,29.5,3.7,0.5,2,1,6,Delayed
+RUN-12,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,In Review,6-Apr,9,0,1,37.9,1.2,0.1,0,0,2,On_Time
+RUN-12,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,5-Apr,3,0,0,28.8,7.2,2.7,0,0,0,On_Time
+RUN-12,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,17-Apr,5,0,0,19.6,4.7,10,0,0,7,Delayed
+RUN-12,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,21-Apr,2.5,0,0,29.6,4.5,1.1,1,0,3,Delayed
+RUN-12,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,4-May,8,0,0,31.5,5.1,0.3,0,0,0,On_Time
+RUN-12,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,13-Apr,6,0,0,29.9,4.1,2.3,0,1,6,Delayed
+RUN-12,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,18-Apr,4,0,1,33.8,1,6.4,0,0,5,Delayed
+RUN-12,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,25-Apr,2,0,1,27.5,4.8,4.1,1,1,9,Delayed
+RUN-12,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,1-May,13,0,1,23.7,5.5,0,2,0,7,Delayed
+RUN-12,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,In Review,16-May,16.5,0,1,25.1,3.5,1,0,2,1,On_Time
+RUN-12,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,In Review,19-May,6.5,0,0,27.8,5.8,0,3,0,2,On_Time
+RUN-12,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,In Review,28-Apr,17.5,0,0,27.7,2.3,0.3,1,2,11,Missed
+RUN-12,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,In Progress,17-May,7,0,1,42,2.3,3.1,2,0,10,Missed
+RUN-12,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,In Progress,19-May,4,0,1,37.5,1.9,0,1,0,3,Delayed
+RUN-12,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,In Review,27-May,4.5,0,1,34.4,3.3,0,1,0,3,Delayed
+RUN-12,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Progress,4-May,10.5,0,1,33.1,6.3,0.8,1,0,0,On_Time
+RUN-12,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,In Progress,15-May,5.5,0,0,32.3,6.2,0.1,1,0,1,On_Time
+RUN-12,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,29-May,4,0,0,32.3,3.3,2.1,0,1,9,Delayed
+RUN-12,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,31-May,5,0,0,31.5,4.7,3.3,0,2,8,Delayed
+RUN-12,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,9-Jun,4,1,0,30.8,5.5,4.2,1,1,10,Missed
+RUN-12,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,7-Jun,0,1,0,19.1,2.4,0.6,1,1,5,Delayed
+RUN-12,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,20-Jun,11,0,0,28.6,1.9,0.8,1,0,6,Delayed
+RUN-12,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,5-Jul,11,0,1,29.3,7.2,0,0,1,8,Delayed
+RUN-12,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,11-Jun,4.5,0,1,26.5,4.8,1.1,0,1,5,Delayed
+RUN-12,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,10-Jul,7,0,1,27.6,7.2,5.3,0,0,2,On_Time
+RUN-12,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,9-Sep,33.5,0,1,32.3,3,1.7,0,0,9,Delayed
+RUN-12,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,13-Sep,11.5,0,0,34.8,5.4,4.3,0,0,6,Delayed
+RUN-12,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,29-Jul,29.5,0,0,32.3,2.3,2.3,2,0,7,Delayed
+RUN-12,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,17-Sep,3.5,1,0,34.7,2.5,0,0,1,2,On_Time
+RUN-12,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,22-Sep,0,1,0,34.8,4.2,1.1,1,2,7,Delayed
+RUN-12,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,27-Sep,4.5,0,0,29,2.9,0,1,1,6,Delayed
+RUN-12,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,22-Oct,25.5,0,0,33.5,1.9,0,0,1,8,Delayed
+RUN-12,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Progress,23-Oct,18.5,0,0,21,2.5,0,0,3,5,Delayed
+RUN-12,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,28-Sep,2.5,0,1,28.5,1.1,0.6,1,2,14,Missed
+RUN-12,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,31-Oct,8,0,0,27.9,5.4,1.7,1,0,0,On_Time
+RUN-12,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,In Progress,29-Jan,17,0,1,39,4,1,2,0,8,Delayed
+RUN-12,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,28-Jan,13,0,1,32.5,1.4,0.8,0,0,3,Delayed
+RUN-12,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,In Progress,28-Jan,3.5,0,0,23.3,1.9,9.2,1,0,11,Missed
+RUN-12,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,In Progress,27-Jan,0,1,0,33.9,1.5,0.5,0,0,2,On_Time
+RUN-12,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,2-Feb,19,0,0,35.6,4.8,4.2,1,0,4,Delayed
+RUN-12,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,6-Feb,20.5,0,0,30.1,1.4,11.1,0,2,14,Missed
+RUN-12,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,5-Feb,4.5,0,1,34.4,5.7,0.1,1,0,5,Delayed
+RUN-13,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,25-Dec,12,0,0,26.6,2.1,1.1,2,0,3,Delayed
+RUN-13,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,2-Jan,5,0,0,20.1,3.9,1.2,1,1,3,Delayed
+RUN-13,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,1-Jan,7,0,0,19.5,5.7,4.9,4,0,8,Delayed
+RUN-13,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,4-Jan,4,0,0,15,4.7,0.2,1,1,3,Delayed
+RUN-13,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,16-Jan,9,0,1,17,8.2,4.1,1,0,2,On_Time
+RUN-13,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,16-Dec,3,0,1,18.5,2.3,1,1,1,6,Delayed
+RUN-13,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,28-Jan,3,1,1,20.5,5.8,0.3,0,0,0,On_Time
+RUN-13,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,30-Jan,0,1,0,29,7.5,1.4,0,3,6,Delayed
+RUN-13,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,In Review,5-Feb,5.5,0,0,8.6,5,0,0,0,0,On_Time
+RUN-13,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,18-Feb,6,0,0,27.6,1.9,3.1,1,2,7,Delayed
+RUN-13,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,19-Feb,9,0,0,14.6,3.5,0,0,1,1,On_Time
+RUN-13,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,In Review,9-Feb,5,0,0,19.6,4,13.1,0,0,4,Delayed
+RUN-13,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,13-Feb,3,0,0,16.2,8.2,12.8,2,1,4,Delayed
+RUN-13,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,In Review,19-Feb,3.5,0,0,30.4,7.9,2.3,1,0,0,On_Time
+RUN-13,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,24-Feb,4,0,0,17.4,8.1,0,0,0,0,On_Time
+RUN-13,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,2-Mar,8.5,0,0,23.1,7.3,0,1,1,1,On_Time
+RUN-13,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,4-Mar,2.5,0,0,23.3,4.2,3.1,1,0,0,On_Time
+RUN-13,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,In Review,9-Mar,3.5,1,0,13.8,7.8,5.3,1,2,6,Delayed
+RUN-13,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,14-Mar,0,1,1,19.7,8.3,0.9,2,2,7,Delayed
+RUN-13,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,In Review,27-Mar,11.5,0,1,26.8,4.2,0.2,1,0,6,Delayed
+RUN-13,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,1-Apr,13.5,0,0,15.4,3.6,0.7,1,1,5,Delayed
+RUN-13,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,6-Apr,10,0,0,24.7,5.5,0,0,0,0,On_Time
+RUN-13,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,3-Apr,7.5,0,0,18.4,3.1,2.7,1,0,0,On_Time
+RUN-13,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,9-Apr,9.5,0,0,26.6,2.1,0,1,1,5,Delayed
+RUN-13,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,In Review,7-Apr,3,0,0,29.8,8.1,2.2,0,0,0,On_Time
+RUN-13,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,In Review,21-Apr,5,0,0,9.1,7.9,0,1,2,2,On_Time
+RUN-13,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,24-Apr,2.5,0,1,12.8,3,5.7,0,0,6,Delayed
+RUN-13,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,6-May,10,0,0,17.8,4.6,0,0,0,1,On_Time
+RUN-13,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,14-Apr,5.5,0,0,28.2,7.3,5.7,0,1,0,On_Time
+RUN-13,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,25-Apr,3.5,0,0,23.1,6.2,0,0,1,1,On_Time
+RUN-13,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,26-Apr,2,0,0,13.3,4.5,5.2,0,1,2,On_Time
+RUN-13,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,9-May,13,0,1,23.9,6.8,5.1,0,0,5,Delayed
+RUN-13,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,17-May,14.5,0,0,15.2,7.8,0,1,1,0,On_Time
+RUN-13,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,25-May,7.5,0,0,25,7.9,0.9,0,0,3,Delayed
+RUN-13,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,30-Apr,13.5,0,0,23.2,4.4,3,0,1,1,On_Time
+RUN-13,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Blocked,22-May,5.5,0,0,15.1,3.1,0,0,0,0,On_Time
+RUN-13,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Blocked,21-May,4,0,0,19.8,7.9,0,2,0,0,On_Time
+RUN-13,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,In Review,29-May,5.5,0,0,26.9,2.5,0,2,0,3,Delayed
+RUN-13,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Progress,10-May,11,0,0,9.8,6.6,0,0,0,0,On_Time
+RUN-13,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,In Progress,20-May,4.5,0,0,21.8,2.8,0,1,1,6,Delayed
+RUN-13,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,In Review,5-Jun,3.5,0,1,14.1,4.5,0.3,2,0,3,Delayed
+RUN-13,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,5-Jun,5,0,0,20.1,4.6,0.2,0,0,0,On_Time
+RUN-13,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,In Review,7-Jun,3.5,1,1,22.7,3,1.7,1,2,13,Missed
+RUN-13,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,11-Jun,0,1,1,31.3,7.9,0,3,2,12,Missed
+RUN-13,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,In Review,23-Jun,8.5,0,0,20,1.9,1.5,1,0,1,On_Time
+RUN-13,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,8-Jul,9.5,0,0,28.2,7.7,2,0,0,0,On_Time
+RUN-13,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,14-Jun,4.5,0,1,15.6,7.7,3.9,2,2,9,Delayed
+RUN-13,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,14-Jul,6,0,0,17.5,4,0,0,0,1,On_Time
+RUN-13,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,11-Sep,31.5,0,0,23.4,6.5,8.8,0,2,13,Missed
+RUN-13,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,18-Sep,10,0,1,21.3,3.6,2.8,1,0,1,On_Time
+RUN-13,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,29-Jul,28.5,0,0,18.4,6.9,2.4,0,1,5,Delayed
+RUN-13,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,22-Sep,3,1,1,18.2,5.6,7.6,0,1,7,Delayed
+RUN-13,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,20-Sep,0,1,0,27.5,3.9,11.8,1,0,3,Delayed
+RUN-13,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,30-Sep,5,0,0,18.6,4.5,0,0,1,0,On_Time
+RUN-13,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,29-Oct,22.5,0,0,14.6,6.4,0.7,1,1,1,On_Time
+RUN-13,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Progress,26-Oct,20.5,0,1,15.5,7.8,6.5,1,2,9,Delayed
+RUN-13,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,2-Oct,2.5,0,0,23.9,2.8,2,0,1,3,Delayed
+RUN-13,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,5-Nov,8.5,0,0,32.6,5.6,10.6,0,0,7,Delayed
+RUN-13,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,3-Feb,14,0,1,17.3,3.6,0,1,1,10,Missed
+RUN-13,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,In Progress,1-Feb,14,0,0,32,7.1,0.5,1,2,4,Delayed
+RUN-13,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,31-Jan,3.5,0,0,20.1,2.4,12.1,0,2,12,Missed
+RUN-13,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,3-Feb,0,1,0,18.7,6.4,1.8,2,0,0,On_Time
+RUN-13,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,7-Feb,18,0,0,15.2,3.1,4,0,0,1,On_Time
+RUN-13,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,6-Feb,21.5,0,0,19.1,5.8,0.1,1,2,6,Delayed
+RUN-13,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,5-Feb,4.5,0,0,16,7.4,0,1,0,0,On_Time
+RUN-14,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,29-Dec,10,0,0,21.1,5.3,0,0,1,1,On_Time
+RUN-14,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,4-Jan,5,0,0,14.4,2.5,0,0,0,0,On_Time
+RUN-14,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,3-Jan,7.5,0,0,22.4,5.6,5.8,0,1,3,Delayed
+RUN-14,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,10-Jan,4,0,0,26.9,6.9,0.3,1,2,4,Delayed
+RUN-14,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,16-Jan,9.5,0,0,22.2,2.4,0.8,1,0,2,On_Time
+RUN-14,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,In Review,21-Dec,2.5,0,0,23,2.9,3.8,0,1,4,Delayed
+RUN-14,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,30-Jan,3.5,1,0,31,1.9,0.3,1,0,3,Delayed
+RUN-14,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,1-Feb,0,1,0,25.3,5.7,1.1,0,0,0,On_Time
+RUN-14,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,5-Feb,6,0,0,20.1,7.6,1.3,1,0,0,On_Time
+RUN-14,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,24-Feb,6,0,1,28.6,6.2,2.7,1,0,6,Delayed
+RUN-14,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,19-Feb,11.5,0,0,25.8,8.2,0,1,0,2,On_Time
+RUN-14,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,15-Feb,5,0,0,10.8,2.2,5.4,0,0,2,On_Time
+RUN-14,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,16-Feb,3,0,1,27.1,7.7,1.6,2,1,9,Delayed
+RUN-14,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,21-Feb,4.5,0,0,26.9,7.1,0,0,0,0,On_Time
+RUN-14,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Review,2-Mar,4,0,0,24.8,3.9,1.7,0,0,3,Delayed
+RUN-14,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,3-Mar,11,0,0,29.6,8.1,0.9,1,0,2,On_Time
+RUN-14,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Review,9-Mar,2.5,0,0,21,3.7,0.4,1,0,0,On_Time
+RUN-14,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,12-Mar,3,1,0,26.5,7.6,0,1,0,2,On_Time
+RUN-14,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,12-Mar,0,1,0,16.1,7.5,2.1,0,0,0,On_Time
+RUN-14,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,29-Mar,12,0,0,26.9,6.7,0,2,1,5,Delayed
+RUN-14,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,3-Apr,11.5,0,0,35.4,5.5,1.4,1,0,4,Delayed
+RUN-14,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,In Review,14-Apr,10.5,0,0,19.2,2.6,2.5,1,0,2,On_Time
+RUN-14,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,9-Apr,6,0,1,20.5,5.3,0,0,1,3,Delayed
+RUN-14,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,12-Apr,9,0,1,20.8,4.1,0,2,1,6,Delayed
+RUN-14,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,13-Apr,3,0,0,25.4,7,4.1,0,0,2,On_Time
+RUN-14,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,25-Apr,5,0,0,18.9,6.7,8.1,0,0,0,On_Time
+RUN-14,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,25-Apr,3,0,0,27,7.7,0.3,0,1,0,On_Time
+RUN-14,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,9-May,8.5,0,0,29.4,1.9,0,1,2,6,Delayed
+RUN-14,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,20-Apr,7,0,0,27.6,7.1,0,1,0,1,On_Time
+RUN-14,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,23-Apr,4.5,0,0,15,7.9,0.1,1,1,2,On_Time
+RUN-14,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,30-Apr,2,0,0,30.2,6.9,0,1,0,1,On_Time
+RUN-14,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,10-May,13,0,1,29.9,2.7,0,1,0,3,Delayed
+RUN-14,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,19-May,14,0,1,29.3,2.3,5.7,0,1,5,Delayed
+RUN-14,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,25-May,6,0,0,26.7,2,0,0,0,2,On_Time
+RUN-14,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,In Review,2-May,18,0,0,25.9,5.9,0,0,0,3,Delayed
+RUN-14,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,21-May,7,0,1,30.4,5.9,1,1,1,4,Delayed
+RUN-14,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,22-May,5,0,0,35.3,8.2,0,1,1,7,Delayed
+RUN-14,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,2-Jun,5.5,0,0,19.5,4.4,0.2,0,0,0,On_Time
+RUN-14,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Progress,12-May,9.5,0,0,30.6,4,0.8,0,1,3,Delayed
+RUN-14,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Blocked,21-May,4.5,0,0,24.2,5.9,0,0,1,0,On_Time
+RUN-14,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,In Review,8-Jun,4.5,0,0,24,7.2,2.1,1,0,0,On_Time
+RUN-14,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Progress,7-Jun,5,0,0,16.2,7.9,0,0,0,0,On_Time
+RUN-14,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,11-Jun,4,1,0,23.1,7,0,0,1,0,On_Time
+RUN-14,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Blocked,14-Jun,0,1,0,19.2,4.6,0,2,0,0,On_Time
+RUN-14,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,In Review,28-Jun,11,0,0,22.1,5.9,1.6,0,1,4,Delayed
+RUN-14,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,13-Jul,10.5,0,0,18.7,7.4,10.7,0,1,0,On_Time
+RUN-14,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,21-Jun,5,0,1,22.2,5,8.9,2,1,6,Delayed
+RUN-14,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,14-Jul,7.5,0,0,22.5,3.2,1.1,2,0,3,Delayed
+RUN-14,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,13-Sep,40.5,0,0,25.2,2.9,6,0,1,9,Delayed
+RUN-14,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,21-Sep,10.5,0,0,15.8,1.8,5.2,0,0,3,Delayed
+RUN-14,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,1-Aug,23.5,0,0,16.7,6.5,0.7,0,0,0,On_Time
+RUN-14,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,In Progress,25-Sep,3,1,1,26.7,2.5,2.7,1,1,13,Missed
+RUN-14,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,27-Sep,0,1,0,20.3,3.4,0,2,3,9,Delayed
+RUN-14,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,29-Sep,5,0,0,30.6,3.8,0,0,0,0,On_Time
+RUN-14,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,30-Oct,25.5,0,0,25.9,5.5,0.5,2,1,6,Delayed
+RUN-14,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,1-Nov,22,0,0,28,4.4,0.2,0,0,2,On_Time
+RUN-14,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,6-Oct,3,0,0,32.5,6.2,1.4,0,0,1,On_Time
+RUN-14,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,6-Nov,8.5,0,0,23,2.2,2.4,2,0,7,Delayed
+RUN-14,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,1-Feb,15.5,0,0,21.5,2.6,5.3,1,0,1,On_Time
+RUN-14,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,4-Feb,13.5,0,0,29.5,5.1,10.1,2,0,7,Delayed
+RUN-14,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,4-Feb,4,0,0,27.5,4,1.6,1,1,5,Delayed
+RUN-14,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,7-Feb,0,1,0,23.7,3.7,0.2,0,0,0,On_Time
+RUN-14,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,12-Feb,17.5,0,0,32.3,2.3,3.8,0,0,4,Delayed
+RUN-14,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,10-Feb,16.5,0,0,23.5,7.6,2.3,0,0,1,On_Time
+RUN-14,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,In Progress,11-Feb,4.5,0,0,24.9,6.3,0,0,0,0,On_Time
+RUN-15,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,31-Dec,10,0,1,33.2,6.3,0,2,0,9,Delayed
+RUN-15,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,5-Jan,4.5,0,0,29.8,5.7,6.7,0,0,0,On_Time
+RUN-15,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,8-Jan,5,0,1,22.1,5,0,0,0,0,On_Time
+RUN-15,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,9-Jan,3.5,0,1,20.1,1.9,3.6,1,2,9,Delayed
+RUN-15,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,21-Jan,8,0,1,21.8,6.4,0.1,0,0,0,On_Time
+RUN-15,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,21-Dec,2,0,1,18.6,7,1.2,0,0,0,On_Time
+RUN-15,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,1-Feb,3,1,1,26.4,1.9,0.3,2,1,8,Delayed
+RUN-15,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,6-Feb,0,1,0,30.1,4.1,1.1,1,1,2,On_Time
+RUN-15,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,9-Feb,4.5,0,1,25.2,2.6,0.5,0,0,1,On_Time
+RUN-15,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,27-Feb,5.5,0,1,35.1,5.9,1.2,2,3,15,Missed
+RUN-15,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Review,23-Feb,8,0,0,35.4,5.7,1.3,1,0,5,Delayed
+RUN-15,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,19-Feb,4,0,1,27.3,1.9,0.9,2,0,3,Delayed
+RUN-15,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,21-Feb,3,0,1,29.5,6.7,2.6,2,1,11,Missed
+RUN-15,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,23-Feb,3.5,0,0,20.6,2.1,6.2,1,0,2,On_Time
+RUN-15,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,6-Mar,4,0,1,23.6,6.1,0,0,1,1,On_Time
+RUN-15,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,In Review,9-Mar,7.5,0,0,32.6,3.9,0.5,1,1,3,Delayed
+RUN-15,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,12-Mar,2,0,1,22.4,3.1,0.8,0,0,1,On_Time
+RUN-15,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,14-Mar,2.5,1,0,33.8,2,4.8,1,1,11,Missed
+RUN-15,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,18-Mar,0,1,1,31.7,2.1,0,0,2,4,Delayed
+RUN-15,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,29-Mar,10,0,0,29.7,5.3,1.5,1,0,0,On_Time
+RUN-15,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,8-Apr,13,0,1,19.1,4.5,0.4,0,0,2,On_Time
+RUN-15,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,15-Apr,9,0,0,23.9,1.8,1.5,0,0,2,On_Time
+RUN-15,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,9-Apr,5.5,0,0,29.1,1.7,0.8,0,0,1,On_Time
+RUN-15,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,14-Apr,8.5,0,0,20.2,1.4,7.1,1,0,6,Delayed
+RUN-15,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,In Review,16-Apr,3,0,0,24.5,5.8,0,0,0,0,On_Time
+RUN-15,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,23-Apr,4,0,0,29.7,5.6,0.2,1,0,0,On_Time
+RUN-15,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,26-Apr,2.5,0,1,22.5,1.3,1.8,0,0,3,Delayed
+RUN-15,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,13-May,7.5,0,1,20.9,4.6,0.6,1,0,7,Delayed
+RUN-15,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,23-Apr,5,0,1,15.7,1.5,0,0,0,3,Delayed
+RUN-15,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,In Review,26-Apr,3,0,1,23.5,6.8,5.2,0,0,3,Delayed
+RUN-15,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,4-May,1.5,0,0,29.8,6.9,1.9,0,1,0,On_Time
+RUN-15,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,12-May,10,0,0,20.8,5.5,1,0,0,0,On_Time
+RUN-15,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,22-May,12.5,0,0,25.7,7,0.6,0,1,0,On_Time
+RUN-15,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,28-May,5,0,1,24.4,6.2,0,1,0,6,Delayed
+RUN-15,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,4-May,14.5,0,1,21.9,6.3,2.4,1,1,4,Delayed
+RUN-15,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,24-May,6.5,0,1,30.2,4.7,1.6,0,1,3,Delayed
+RUN-15,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,25-May,4,0,1,34.6,3,0.6,0,1,2,On_Time
+RUN-15,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,3-Jun,4,0,1,31.1,2.4,1,0,0,3,Delayed
+RUN-15,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,Done,14-May,7.5,0,0,21.8,3.1,7.9,1,1,7,Delayed
+RUN-15,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,27-May,4,0,0,36.6,5,1.8,0,1,7,Delayed
+RUN-15,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,In Review,6-Jun,3,0,0,31.1,2.1,1.3,1,1,7,Delayed
+RUN-15,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Progress,11-Jun,4,0,0,23.1,2.6,1.8,0,0,0,On_Time
+RUN-15,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,In Progress,13-Jun,3.5,1,0,21.3,4,3.7,0,0,2,On_Time
+RUN-15,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,In Progress,15-Jun,0,1,0,31.8,2.5,0,3,0,3,Delayed
+RUN-15,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,1-Jul,9,0,0,26.5,4.8,0.5,1,0,0,On_Time
+RUN-15,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,13-Jul,10,0,0,20.9,7,0,0,1,1,On_Time
+RUN-15,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,In Review,22-Jun,4,0,0,24.8,5.8,2.7,1,1,1,On_Time
+RUN-15,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,22-Jul,5.5,0,0,23.4,5.3,3.1,0,0,2,On_Time
+RUN-15,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,In Progress,13-Sep,33,0,0,21.1,4.7,0,0,1,9,Delayed
+RUN-15,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,21-Sep,8.5,0,0,31.2,4.1,1.1,0,0,0,On_Time
+RUN-15,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,In Progress,4-Aug,20.5,0,1,29.9,2.2,0.2,1,0,5,Delayed
+RUN-15,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,28-Sep,2.5,1,0,30.2,6.8,7.9,0,0,1,On_Time
+RUN-15,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,27-Sep,0,1,0,30.1,2.6,1.4,0,2,4,Delayed
+RUN-15,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,4-Oct,3.5,0,1,20.6,1.6,2.4,2,1,9,Delayed
+RUN-15,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,4-Nov,19.5,0,1,22.3,5.8,2.7,2,0,3,Delayed
+RUN-15,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,31-Oct,18.5,0,1,33.6,2.1,0,0,1,8,Delayed
+RUN-15,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,In Progress,5-Oct,2.5,0,0,26.2,3.4,0,0,1,6,Delayed
+RUN-15,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,7-Nov,6,0,0,17.5,1.1,0,1,2,2,On_Time
+RUN-15,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,9-Feb,11.5,0,0,26.8,1.9,4,0,0,0,On_Time
+RUN-15,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,6-Feb,11.5,0,0,29.2,2.1,2,0,0,1,On_Time
+RUN-15,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,4-Feb,3,0,1,28.5,1.3,1.7,1,1,9,Delayed
+RUN-15,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,8-Feb,0,1,0,20.4,5.2,0.3,2,0,3,Delayed
+RUN-15,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,14-Feb,15.5,0,0,36,6.4,0,0,0,3,Delayed
+RUN-15,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,14-Feb,14,0,0,17.3,3.4,1,0,2,2,On_Time
+RUN-15,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,11-Feb,3.5,0,0,26.2,6.6,0,1,0,0,On_Time
+RUN-16,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,3-Jan,8,0,1,16.1,5.4,8.1,0,0,2,On_Time
+RUN-16,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,10-Jan,3.5,0,0,18.1,1.1,0.7,0,1,2,On_Time
+RUN-16,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,11-Jan,4.5,0,0,14.6,3.8,3.1,0,0,3,Delayed
+RUN-16,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,16-Jan,3,0,1,12.9,0.9,1.3,0,0,1,On_Time
+RUN-16,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,25-Jan,6,0,1,13.9,2.8,0.1,0,0,1,On_Time
+RUN-16,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,23-Dec,2,0,0,15.2,4.4,0,1,0,0,On_Time
+RUN-16,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,6-Feb,2.5,1,0,8,4.1,0.4,0,1,0,On_Time
+RUN-16,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,8-Feb,0,1,0,18.1,3.1,2,0,0,2,On_Time
+RUN-16,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,16-Feb,4.5,0,1,20,3.3,0,0,1,0,On_Time
+RUN-16,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,2-Mar,5.5,0,0,12.8,1.9,0,0,1,1,On_Time
+RUN-16,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,28-Feb,8,0,1,11,3.4,0,2,0,5,Delayed
+RUN-16,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,In Review,19-Feb,3.5,0,1,9.8,6.7,0.5,0,0,3,Delayed
+RUN-16,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,24-Feb,2.5,0,0,23.5,6,0.3,0,0,0,On_Time
+RUN-16,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,25-Feb,3,0,0,11.4,1.4,5.7,1,0,1,On_Time
+RUN-16,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Review,9-Mar,3,0,0,17.5,0.8,2.4,0,1,1,On_Time
+RUN-16,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,In Review,11-Mar,8.5,0,0,12.8,6.5,2.7,1,0,2,On_Time
+RUN-16,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,15-Mar,2,0,0,12.5,3.9,1.4,3,1,7,Delayed
+RUN-16,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,22-Mar,2.5,1,0,9.7,4,1.3,0,0,0,On_Time
+RUN-16,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,18-Mar,0,1,1,8.5,5.5,0.2,1,0,2,On_Time
+RUN-16,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,31-Mar,9.5,0,0,17.9,2.5,1.6,1,1,8,Delayed
+RUN-16,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,9-Apr,11.5,0,0,8.4,3.6,0.6,0,0,1,On_Time
+RUN-16,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,16-Apr,8.5,0,1,16.4,6.8,7.4,0,1,5,Delayed
+RUN-16,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,12-Apr,5,0,0,14.4,4.8,3.1,0,0,0,On_Time
+RUN-16,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,17-Apr,7,0,1,18,1.5,1,0,0,3,Delayed
+RUN-16,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,18-Apr,2.5,0,1,10.5,1.3,0.3,1,0,1,On_Time
+RUN-16,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,30-Apr,3.5,0,0,19.8,1.8,3,1,0,2,On_Time
+RUN-16,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,28-Apr,2,0,0,13.1,5.5,0.3,0,1,0,On_Time
+RUN-16,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,18-May,7,0,0,28.1,2.4,0.4,0,0,0,On_Time
+RUN-16,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,22-Apr,4.5,0,1,8,0.8,0.5,0,0,4,Delayed
+RUN-16,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,2-May,3,0,0,27.2,6.6,0,2,0,0,On_Time
+RUN-16,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,8-May,1.5,0,0,13.2,1.6,0,1,0,0,On_Time
+RUN-16,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,13-May,10.5,0,1,15.1,0.8,0.7,3,1,8,Delayed
+RUN-16,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,26-May,12.5,0,0,10.5,2,0.2,1,0,3,Delayed
+RUN-16,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,2-Jun,5.5,0,0,8,2,1.2,1,0,4,Delayed
+RUN-16,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,8-May,12,0,1,11,3.2,2.7,0,1,4,Delayed
+RUN-16,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,31-May,5.5,0,0,11.9,6.5,0.5,0,1,2,On_Time
+RUN-16,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,2-Jun,3.5,0,1,14.9,6.2,0,0,1,2,On_Time
+RUN-16,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,6-Jun,4.5,0,0,20,3.4,0,0,1,0,On_Time
+RUN-16,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,Done,19-May,6.5,0,1,14.9,3.1,6,1,0,5,Delayed
+RUN-16,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,30-May,4,0,0,15,4.1,0,0,1,1,On_Time
+RUN-16,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,Done,12-Jun,3,0,0,16,2.1,3.2,0,0,1,On_Time
+RUN-16,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,12-Jun,3.5,0,1,8,0.8,0.4,0,1,5,Delayed
+RUN-16,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,Done,18-Jun,3.5,1,0,8,6.6,0.5,0,1,0,On_Time
+RUN-16,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Done,17-Jun,0,1,0,8,1.7,0.8,0,0,3,Delayed
+RUN-16,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,2-Jul,7,0,1,11.8,1.8,0.8,0,1,4,Delayed
+RUN-16,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,16-Jul,8.5,0,0,8,3.5,6.1,1,1,5,Delayed
+RUN-16,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,26-Jun,4,0,1,10.1,3.7,3.1,0,1,6,Delayed
+RUN-16,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,21-Jul,5.5,0,0,8,0.8,2.5,0,0,1,On_Time
+RUN-16,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,In Progress,21-Sep,28,0,0,16.5,1.4,0,1,1,13,Missed
+RUN-16,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Review,24-Sep,9,0,0,16.3,2.9,0,0,1,2,On_Time
+RUN-16,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,In Review,7-Aug,23,0,0,12.2,4.9,0,0,2,6,Delayed
+RUN-16,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,In Progress,30-Sep,2.5,1,1,8,2,0.4,0,0,0,On_Time
+RUN-16,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,Blocked,2-Oct,0,1,0,12.6,3.2,4,0,0,2,On_Time
+RUN-16,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,In Review,5-Oct,3.5,0,1,15.7,4.1,0.6,0,0,1,On_Time
+RUN-16,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,4-Nov,20,0,0,18.3,6.2,0.2,0,0,0,On_Time
+RUN-16,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,7-Nov,17,0,0,23.5,2.6,2.1,0,0,0,On_Time
+RUN-16,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,9-Oct,2,0,0,20,1.3,2.1,0,0,0,On_Time
+RUN-16,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,9-Nov,6,0,0,14.8,3.7,0.2,2,0,4,Delayed
+RUN-16,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,10-Feb,13,0,0,12.3,5.3,0.8,0,0,0,On_Time
+RUN-16,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,11-Feb,10,0,0,9.8,1.2,9.7,2,1,13,Missed
+RUN-16,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,8-Feb,3,0,0,21.3,3.2,2.2,1,0,0,On_Time
+RUN-16,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,In Progress,9-Feb,0,1,0,14.8,0.8,2.6,0,1,3,Delayed
+RUN-16,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,15-Feb,15,0,0,17.3,0.8,0.5,0,1,2,On_Time
+RUN-16,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,15-Feb,13.5,0,0,10.6,3.6,0,0,0,0,On_Time
+RUN-16,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,14-Feb,3.5,0,0,8,2.4,0.6,0,0,0,On_Time
+RUN-17,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,3-Jan,7,0,0,19.5,5.9,3.6,1,1,7,Delayed
+RUN-17,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,10-Jan,3,0,0,11.5,3.8,0,0,0,0,On_Time
+RUN-17,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,14-Jan,4.5,0,0,18,3.7,0.5,0,0,0,On_Time
+RUN-17,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,14-Jan,3,0,0,20.5,4.4,6.8,0,2,8,Delayed
+RUN-17,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,23-Jan,6,0,0,22.1,2.6,1.8,1,1,8,Delayed
+RUN-17,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,27-Dec,1.5,0,1,17.3,7,4.6,0,1,2,On_Time
+RUN-17,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,11-Feb,2.5,1,0,20.8,3.9,1,2,0,6,Delayed
+RUN-17,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,In Review,9-Feb,0,1,0,17.3,4.2,1,1,0,3,Delayed
+RUN-17,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,14-Feb,4,0,0,22.8,7.4,10.2,1,0,3,Delayed
+RUN-17,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,5-Mar,5,0,1,17.6,4.9,0,1,0,6,Delayed
+RUN-17,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,In Review,28-Feb,7.5,0,0,18.8,5.2,0,0,0,0,On_Time
+RUN-17,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,20-Feb,4,0,0,16.3,7.8,0.6,0,1,0,On_Time
+RUN-17,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,2-Mar,2,0,1,22.6,7.4,0,0,0,0,On_Time
+RUN-17,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,2-Mar,2.5,0,0,18.7,2.7,0.1,1,0,0,On_Time
+RUN-17,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Review,10-Mar,2.5,0,1,28.5,4.7,1.5,1,0,5,Delayed
+RUN-17,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,15-Mar,7,0,1,25.7,7.9,1.3,1,0,0,On_Time
+RUN-17,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Review,19-Mar,1.5,0,0,23.1,4,3.6,3,1,6,Delayed
+RUN-17,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,23-Mar,2,1,0,19.1,4,1.1,0,0,0,On_Time
+RUN-17,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,21-Mar,0,1,0,25.6,2.9,9.7,0,1,4,Delayed
+RUN-17,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,7-Apr,8,0,0,27.3,2.4,0.5,0,0,4,Delayed
+RUN-17,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,14-Apr,8.5,0,0,24.3,6.4,0,0,1,2,On_Time
+RUN-17,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,18-Apr,7.5,0,1,32.3,6.6,0.2,0,0,0,On_Time
+RUN-17,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,19-Apr,4,0,1,26,7.9,3.2,1,1,7,Delayed
+RUN-17,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,22-Apr,6,0,1,28.5,6.7,12.6,0,0,5,Delayed
+RUN-17,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,19-Apr,2.5,0,0,24.2,3.2,4.1,1,1,5,Delayed
+RUN-17,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,29-Apr,3,0,0,27.2,1.9,2,1,0,5,Delayed
+RUN-17,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,6-May,2,0,1,19.1,8,1.6,0,2,3,Delayed
+RUN-17,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,21-May,7,0,0,21,3.8,4.3,0,0,3,Delayed
+RUN-17,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,30-Apr,5,0,0,25.4,3.7,6.6,1,1,8,Delayed
+RUN-17,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,6-May,3,0,0,25.4,7.5,0,1,0,0,On_Time
+RUN-17,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,11-May,1.5,0,0,26.3,5.4,1.2,0,0,0,On_Time
+RUN-17,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,16-May,8.5,0,0,29.5,3,11.3,1,0,7,Delayed
+RUN-17,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,28-May,9.5,0,0,15.7,7.4,0,1,4,12,Missed
+RUN-17,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,4-Jun,4,0,0,18.1,8.1,0.7,0,0,0,On_Time
+RUN-17,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,13-May,9.5,0,0,24.8,2.2,0,2,1,10,Missed
+RUN-17,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,In Review,30-May,4,0,0,19.5,7.2,0.8,1,0,0,On_Time
+RUN-17,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,1-Jun,3.5,0,0,42,4.2,3.5,1,0,6,Delayed
+RUN-17,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,10-Jun,3.5,0,0,26.3,5,4.6,0,1,1,On_Time
+RUN-17,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,Done,21-May,7,0,0,23.1,7.6,3.6,0,0,0,On_Time
+RUN-17,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,31-May,3.5,0,0,20.7,8,0,0,1,2,On_Time
+RUN-17,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,Done,15-Jun,2.5,0,0,20.8,3.3,1.7,0,0,1,On_Time
+RUN-17,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,18-Jun,3.5,0,1,23.7,3,3,0,1,5,Delayed
+RUN-17,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,Done,21-Jun,2.5,1,0,24.1,2.2,1.2,2,0,3,Delayed
+RUN-17,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Done,21-Jun,0,1,1,21,5.3,4.4,0,0,0,On_Time
+RUN-17,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,Done,7-Jul,7,0,0,22,1.7,2.7,1,2,7,Delayed
+RUN-17,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,Done,19-Jul,7.5,0,1,30.9,4.3,2.9,0,1,3,Delayed
+RUN-17,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,Done,26-Jun,3,0,0,31.1,2.1,1.8,0,0,1,On_Time
+RUN-17,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,In Progress,28-Jul,4.5,0,0,24.9,4.3,5.2,0,0,0,On_Time
+RUN-17,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,In Progress,23-Sep,27.5,0,0,16.1,1.9,0,0,0,0,On_Time
+RUN-17,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Progress,29-Sep,6.5,0,0,26.4,7.1,1.2,0,1,3,Delayed
+RUN-17,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,Blocked,10-Aug,15.5,0,0,32,3,3.6,0,1,7,Delayed
+RUN-17,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,In Review,5-Oct,2,1,0,31,3.8,1.6,0,0,0,On_Time
+RUN-17,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,In Progress,3-Oct,0,1,0,27.5,7.3,5.3,0,0,0,On_Time
+RUN-17,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,In Progress,8-Oct,3.5,0,0,31.3,6.5,1,0,0,0,On_Time
+RUN-17,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,In Progress,8-Nov,19,0,0,23.8,3.1,1.1,0,0,3,Delayed
+RUN-17,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Review,8-Nov,13.5,0,0,26.9,2.1,5.3,0,0,4,Delayed
+RUN-17,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,Blocked,11-Oct,2,0,0,19.7,6.3,0,2,0,0,On_Time
+RUN-17,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,14-Nov,6,0,0,25.1,4.2,1.7,0,0,0,On_Time
+RUN-17,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,13-Feb,11.5,0,0,30.8,6.6,0,1,0,0,On_Time
+RUN-17,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,12-Feb,9.5,0,0,20.2,4.5,0.8,0,0,0,On_Time
+RUN-17,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,11-Feb,3,0,0,18.7,3.9,2.6,0,0,2,On_Time
+RUN-17,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,14-Feb,0,1,0,24,4.6,0.3,2,0,2,On_Time
+RUN-17,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,22-Feb,13.5,0,1,22.2,6.5,0,0,0,2,On_Time
+RUN-17,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,17-Feb,13,0,0,27.1,7.5,3.6,3,0,4,Delayed
+RUN-17,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,19-Feb,3.5,0,1,21,2,0.5,0,0,1,On_Time
+RUN-18,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,9-Jan,9.5,0,0,19.9,6.3,1.6,1,0,3,Delayed
+RUN-18,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,17-Jan,4,0,1,11.1,5.2,2,3,0,6,Delayed
+RUN-18,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,16-Jan,6,0,1,25.2,7,1.3,0,0,0,On_Time
+RUN-18,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,20-Jan,3.5,0,0,17.2,2.8,1.2,1,2,2,On_Time
+RUN-18,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,29-Jan,8,0,0,8,5.9,3.5,0,0,0,On_Time
+RUN-18,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,In Review,2-Jan,2,0,0,18.4,5,0.7,1,2,5,Delayed
+RUN-18,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,15-Feb,3,1,0,13.2,5,3.7,0,0,0,On_Time
+RUN-18,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,14-Feb,0,1,0,8,2.6,8.3,1,0,2,On_Time
+RUN-18,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,17-Feb,5.5,0,0,20.7,5.6,2.5,0,1,2,On_Time
+RUN-18,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,5-Mar,6,0,1,11.1,6.4,0,0,1,1,On_Time
+RUN-18,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,2-Mar,11,0,0,10.6,1.9,0,3,1,11,Missed
+RUN-18,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,24-Feb,5.5,0,1,15.6,4.6,0,3,0,5,Delayed
+RUN-18,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,28-Feb,3,0,0,19.8,3.1,1,0,0,3,Delayed
+RUN-18,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,6-Mar,4,0,0,14.1,6.9,0,0,1,0,On_Time
+RUN-18,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,15-Mar,3.5,0,0,13.7,3.6,11.7,0,0,1,On_Time
+RUN-18,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,19-Mar,9.5,0,1,9.7,2,2.7,0,2,6,Delayed
+RUN-18,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Review,21-Mar,2.5,0,0,19.7,3,0,3,0,8,Delayed
+RUN-18,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,26-Mar,3.5,1,0,14.2,4.8,1.8,0,2,5,Delayed
+RUN-18,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,29-Mar,0,1,0,12.3,1,0,0,0,0,On_Time
+RUN-18,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,9-Apr,9.5,0,0,11.6,4.4,4.8,0,0,1,On_Time
+RUN-18,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,13-Apr,13,0,0,19.2,6.6,0.1,0,1,0,On_Time
+RUN-18,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,22-Apr,8,0,1,12.1,6,3.7,1,1,3,Delayed
+RUN-18,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,In Review,22-Apr,7,0,1,19.2,0.9,0,1,0,2,On_Time
+RUN-18,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,22-Apr,8,0,0,10.9,7,6,1,0,0,On_Time
+RUN-18,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,25-Apr,3,0,0,17.5,5.1,0.5,0,2,6,Delayed
+RUN-18,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,2-May,5,0,0,14.6,1.6,2.2,2,0,0,On_Time
+RUN-18,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,8-May,2.5,0,0,8.3,0.8,2.8,1,1,2,On_Time
+RUN-18,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,20-May,9,0,0,13,1.6,0,2,2,10,Missed
+RUN-18,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,1-May,7,0,0,8,6,1.3,0,0,0,On_Time
+RUN-18,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,9-May,3,0,0,9.4,0.8,1.9,1,1,4,Delayed
+RUN-18,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Review,9-May,2,0,0,8,2,0,1,0,6,Delayed
+RUN-18,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,23-May,11.5,0,0,24.5,5.4,1.7,1,3,10,Missed
+RUN-18,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,3-Jun,16,0,0,8,4.3,1.3,0,0,3,Delayed
+RUN-18,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,11-Jun,6,0,0,27.7,5.6,2.5,0,0,0,On_Time
+RUN-18,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,15-May,14.5,0,0,16.3,5.4,0,2,0,2,On_Time
+RUN-18,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,6-Jun,7,0,0,10.7,0.8,13.6,1,1,8,Delayed
+RUN-18,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,6-Jun,4,0,0,17.9,6.3,2.1,0,1,3,Delayed
+RUN-18,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,14-Jun,5,0,0,10,2,0.7,1,0,3,Delayed
+RUN-18,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,Done,24-May,8,0,0,8,4.1,0,0,1,1,On_Time
+RUN-18,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,6-Jun,4.5,0,1,13.9,4.7,6.1,0,0,3,Delayed
+RUN-18,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,Done,16-Jun,4,0,0,17.4,1.6,0.1,0,0,2,On_Time
+RUN-18,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,22-Jun,4.5,0,0,20.5,6.9,3.5,0,0,0,On_Time
+RUN-18,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,In Review,27-Jun,4,1,0,16.2,3.7,2.4,5,0,8,Delayed
+RUN-18,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Done,28-Jun,0,1,0,10.6,0.9,0.6,0,0,1,On_Time
+RUN-18,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,Done,11-Jul,8,0,1,21.1,6.6,5.2,1,2,4,Delayed
+RUN-18,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,Done,24-Jul,10,0,0,19.9,4.3,1.4,0,0,1,On_Time
+RUN-18,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,Done,4-Jul,4.5,0,0,15,5.1,1.1,0,1,0,On_Time
+RUN-18,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,Done,30-Jul,6,0,0,20.2,3.9,5.3,1,1,7,Delayed
+RUN-18,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,Done,22-Sep,38,0,0,25.5,5.9,3.1,0,0,8,Delayed
+RUN-18,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Review,30-Sep,10.5,0,0,10.5,0.8,0,0,3,7,Delayed
+RUN-18,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,17-Aug,21.5,0,0,8.6,2.3,3,2,1,6,Delayed
+RUN-18,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,Blocked,9-Oct,3.5,1,0,10.4,3.6,0,0,0,0,On_Time
+RUN-18,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,In Progress,6-Oct,0,1,1,8,1,5.5,0,1,5,Delayed
+RUN-18,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,In Progress,16-Oct,4,0,0,16.8,5.1,0.2,1,0,2,On_Time
+RUN-18,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,In Review,12-Nov,26.5,0,0,8,3.1,4.5,2,2,12,Missed
+RUN-18,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Review,10-Nov,16.5,0,0,20.5,2.3,2.9,1,1,6,Delayed
+RUN-18,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,In Progress,19-Oct,2.5,0,0,9.8,0.8,0.2,0,0,0,On_Time
+RUN-18,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,In Progress,16-Nov,7,0,0,21,5.2,2.2,1,1,1,On_Time
+RUN-18,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,In Review,18-Feb,14.5,0,0,8,5.9,0.3,0,1,3,Delayed
+RUN-18,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,In Progress,16-Feb,10,0,0,11.4,3.1,4,0,0,5,Delayed
+RUN-18,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,17-Feb,3.5,0,1,8,4.2,2.4,0,0,0,On_Time
+RUN-18,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,18-Feb,0,1,0,21,2,9.3,0,0,0,On_Time
+RUN-18,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,To Do,22-Feb,15.5,0,0,22.7,4.6,0.6,0,2,4,Delayed
+RUN-18,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,23-Feb,16.5,0,0,8,0.8,2.8,1,0,2,On_Time
+RUN-18,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,23-Feb,4,0,0,18.3,3.7,0,1,0,0,On_Time
+RUN-19,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,12-Jan,10.5,0,1,23.1,6.7,1.1,0,0,0,On_Time
+RUN-19,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,In Review,17-Jan,4.5,0,0,36.7,7.3,0.9,0,0,0,On_Time
+RUN-19,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,In Review,18-Jan,6,0,1,14.4,7.6,2.2,0,0,0,On_Time
+RUN-19,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,21-Jan,3.5,0,0,27.2,3,2,0,1,6,Delayed
+RUN-19,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,In Review,3-Feb,10.5,0,0,34.4,4.9,0.8,1,0,0,On_Time
+RUN-19,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,3-Jan,2.5,0,1,27.5,4.1,0.4,0,0,4,Delayed
+RUN-19,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,13-Feb,3,1,0,25.7,4.8,0,0,0,0,On_Time
+RUN-19,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,18-Feb,0,1,0,28.7,2.2,1.2,0,0,2,On_Time
+RUN-19,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,23-Feb,5,0,1,26,6.7,2.2,0,1,5,Delayed
+RUN-19,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,10-Mar,7.5,0,0,28.1,7,5.4,0,0,3,Delayed
+RUN-19,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,4-Mar,11.5,0,1,24.2,4.1,0.1,0,0,2,On_Time
+RUN-19,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,27-Feb,6,0,1,34.1,3,0.6,1,0,5,Delayed
+RUN-19,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,3-Mar,3,0,0,35.8,2,0,0,0,3,Delayed
+RUN-19,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,11-Mar,4.5,0,0,27.2,5.6,1.5,0,0,0,On_Time
+RUN-19,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,Done,18-Mar,4,0,1,20.3,3.2,1.2,0,1,1,On_Time
+RUN-19,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,22-Mar,9,0,0,25.1,7,0,1,0,0,On_Time
+RUN-19,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,In Review,22-Mar,2.5,0,1,27,5.5,0,0,0,1,On_Time
+RUN-19,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,27-Mar,3.5,1,0,30.8,5.3,0,1,0,5,Delayed
+RUN-19,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,1-Apr,0,1,0,22.4,4.8,4.7,0,1,2,On_Time
+RUN-19,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,In Review,12-Apr,13,0,1,23.7,1.4,5.3,0,1,12,Missed
+RUN-19,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,Done,18-Apr,15,0,0,30.8,7.2,0,0,0,1,On_Time
+RUN-19,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,Done,24-Apr,11,0,1,33.1,5.2,0,1,0,3,Delayed
+RUN-19,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,26-Apr,6,0,1,24.6,7.6,5.2,0,0,4,Delayed
+RUN-19,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,26-Apr,9,0,1,20.6,4.6,0.6,0,0,1,On_Time
+RUN-19,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,In Review,28-Apr,3,0,1,42,5.7,0.5,0,0,3,Delayed
+RUN-19,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,9-May,6,0,1,32.3,1.5,0,1,0,2,On_Time
+RUN-19,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,8-May,2.5,0,1,26.5,5.2,2.7,1,0,0,On_Time
+RUN-19,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,27-May,10.5,0,1,32.8,6.1,0,1,0,5,Delayed
+RUN-19,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,Done,4-May,6.5,0,1,27.3,6.2,0.5,0,0,3,Delayed
+RUN-19,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,Done,11-May,4,0,0,32.7,6.1,2.2,2,1,10,Missed
+RUN-19,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,In Review,12-May,1.5,0,1,28.8,2.6,3,0,1,4,Delayed
+RUN-19,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,In Review,22-May,11.5,0,0,28.5,7.5,5.7,0,0,4,Delayed
+RUN-19,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,8-Jun,18,0,0,27.3,7.6,2.3,1,0,5,Delayed
+RUN-19,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,10-Jun,5.5,0,0,20,1.6,7.7,1,0,3,Delayed
+RUN-19,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,19-May,15.5,0,0,38.6,7.2,0.9,1,0,6,Delayed
+RUN-19,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,4-Jun,5.5,0,0,22.8,3,0.9,0,0,2,On_Time
+RUN-19,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,8-Jun,4.5,0,0,20.5,5.6,1.7,1,0,3,Delayed
+RUN-19,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,14-Jun,5,0,0,26.8,3.3,1.1,1,0,7,Delayed
+RUN-19,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,In Review,25-May,9,0,1,22.7,7.4,0,1,1,6,Delayed
+RUN-19,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,9-Jun,6,0,0,27.7,1.8,0,0,0,0,On_Time
+RUN-19,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,Done,18-Jun,4,0,0,31.8,4.4,3,1,0,4,Delayed
+RUN-19,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,21-Jun,4.5,0,0,33.4,3.9,0,1,1,1,On_Time
+RUN-19,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,Done,30-Jun,4,1,1,32.5,3.3,0.9,0,0,3,Delayed
+RUN-19,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Done,29-Jun,0,1,0,26.3,5.3,1.6,0,2,4,Delayed
+RUN-19,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,Done,16-Jul,9,0,1,28.2,2,1,0,0,2,On_Time
+RUN-19,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,Done,29-Jul,10.5,0,1,30.2,5.8,0,0,2,4,Delayed
+RUN-19,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,Done,5-Jul,5.5,0,1,18.3,7.5,1.8,1,0,0,On_Time
+RUN-19,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,Done,31-Jul,6,0,1,31.1,6.4,0,0,0,0,On_Time
+RUN-19,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,Done,28-Sep,39,0,0,20,6.7,0.2,0,0,1,On_Time
+RUN-19,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,Done,7-Oct,10.5,0,0,39.2,3.5,3.1,1,1,8,Delayed
+RUN-19,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,Done,18-Aug,28.5,0,0,25.7,3.2,0,1,2,10,Missed
+RUN-19,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,Done,11-Oct,4,1,1,27,4.5,0,0,0,0,On_Time
+RUN-19,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,In Review,13-Oct,0,1,0,23.7,1.4,0,0,0,2,On_Time
+RUN-19,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,In Progress,18-Oct,4,0,1,24.5,7.3,8.9,0,0,3,Delayed
+RUN-19,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,Blocked,14-Nov,25,0,0,40.5,2.1,0,0,1,9,Delayed
+RUN-19,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,15-Nov,19,0,0,33.1,7,1.9,1,0,3,Delayed
+RUN-19,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,Blocked,20-Oct,2.5,0,1,19.5,1.7,0.9,4,0,15,Missed
+RUN-19,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,In Progress,19-Nov,8.5,0,1,36.2,6.5,4,1,1,9,Delayed
+RUN-19,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,In Progress,19-Feb,17,0,1,34.5,2.1,1,0,0,9,Delayed
+RUN-19,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,In Review,16-Feb,12.5,0,1,26.4,1.4,0,1,1,6,Delayed
+RUN-19,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,20-Feb,4,0,1,29.7,5.8,4.3,2,1,7,Delayed
+RUN-19,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,In Progress,21-Feb,0,1,0,27.9,3,1,0,1,2,On_Time
+RUN-19,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,25-Feb,16.5,0,1,38.8,5.8,0,1,0,11,Missed
+RUN-19,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,To Do,25-Feb,19.5,0,0,23.6,4.7,1.1,1,0,2,On_Time
+RUN-19,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,23-Feb,5,0,1,28.8,1.8,2.3,1,0,4,Delayed
+RUN-20,RSF-7,1.1.1,"Stakeholder interviews (purchasing team, store managers)",Phase 1: Project Initiation,Stakeholder_Training,Done,11-Jan,9.5,0,0,28,0.8,2.4,1,0,0,On_Time
+RUN-20,RSF-8,1.1.2,Business problem and success criteria defined,Phase 1: Project Initiation,Project_Management,Done,21-Jan,3.5,0,0,26.6,5.7,3.9,0,0,1,On_Time
+RUN-20,RSF-9,1.2.1,Build-vs-buy comparison (vendor tools vs in-house),Phase 1: Project Initiation,Project_Management,Done,23-Jan,5.5,0,0,21.1,2.6,0,0,1,2,On_Time
+RUN-20,RSF-10,1.2.2,Technical and data feasibility check,Phase 1: Project Initiation,Data_Engineering,Done,28-Jan,3.5,0,0,28,6.1,4.6,1,0,1,On_Time
+RUN-20,RSF-12,1.3.2,High-level solution design,Phase 1: Project Initiation,Project_Management,Done,2-Feb,7.5,0,0,30.5,5.7,2.4,1,1,3,Delayed
+RUN-20,RSF-13,1.4.1,Team charter,Phase 1: Project Initiation,Stakeholder_Training,Done,4-Jan,2,0,1,27.9,4.8,3.1,1,0,4,Delayed
+RUN-20,RSF-15,1.5,Gate 1 review package,Phase 1: Project Initiation,Governance_Gate,Done,16-Feb,3,1,0,29.8,2.6,0.9,0,1,4,Delayed
+RUN-20,RSF-16,1.6,Gate 1: Approval to build (vs buy),Phase 1: Project Initiation,Governance_Gate,Done,19-Feb,0,1,0,24.8,3.9,2,0,1,3,Delayed
+RUN-20,RSF-17,2.1.1,"Data sources identified (POS, promotions, store and product data)",Phase 2: Data Governance,Data_Engineering,Done,23-Feb,4.5,0,1,21.7,3.4,2.6,1,0,3,Delayed
+RUN-20,RSF-18,2.1.2,Data access requested and granted,Phase 2: Data Governance,Data_Engineering,Done,14-Mar,5.5,0,0,28,2.7,0,2,1,1,On_Time
+RUN-20,RSF-19,2.1.3,Data collection and storage setup defined,Phase 2: Data Governance,Data_Engineering,Done,10-Mar,7.5,0,1,29.8,6,6.3,1,1,7,Delayed
+RUN-20,RSF-20,2.2.1,Personal data and privacy risks mapped,Phase 2: Data Governance,Governance_Gate,Done,4-Mar,5,0,1,27.6,3.7,0,0,0,0,On_Time
+RUN-20,RSF-21,2.2.2,"Potential bias assessed (e.g., across store groups)",Phase 2: Data Governance,Project_Management,Done,9-Mar,2.5,0,0,29.7,5.9,9.1,2,0,10,Missed
+RUN-20,RSF-22,2.2.3,Privacy impact and bias risk assessment report,Phase 2: Data Governance,Governance_Gate,Done,13-Mar,3,0,0,32.8,1.2,2.8,0,0,3,Delayed
+RUN-20,RSF-23,2.2.4,Privacy/Ethics officer review,Phase 2: Data Governance,Governance_Gate,In Review,20-Mar,3.5,0,1,32.8,1.4,9.1,0,1,11,Missed
+RUN-20,RSF-24,2.3.1,Exploratory data analysis (EDA) on source data,Phase 2: Data Governance,Data_Engineering,Done,20-Mar,7.5,0,1,33.3,6.9,4.6,0,1,7,Delayed
+RUN-20,RSF-25,2.3.2,Data quality assessment report,Phase 2: Data Governance,Data_Engineering,Done,27-Mar,2,0,0,34.1,4.3,0,0,0,1,On_Time
+RUN-20,RSF-26,2.4,Gate 2 review package,Phase 2: Data Governance,Governance_Gate,Done,2-Apr,2.5,1,0,31.3,3.8,1.4,1,1,4,Delayed
+RUN-20,RSF-27,2.5,Gate 2: Data governance sign-off,Phase 2: Data Governance,Governance_Gate,Done,1-Apr,0,1,0,30.5,3.9,0.7,3,1,6,Delayed
+RUN-20,RSF-28,3.1.1,"Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",Phase 3: Implementation,Data_Engineering,Done,16-Apr,10.5,0,1,39.2,1.9,0,1,0,2,On_Time
+RUN-20,RSF-29,3.1.2,"Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,In Review,19-Apr,11,0,0,32.8,5.2,0.5,0,1,3,Delayed
+RUN-20,RSF-30,3.1.3,"Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,In Review,28-Apr,9,0,0,23.9,1.1,0,1,1,6,Delayed
+RUN-20,RSF-31,3.1.4,"Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,Done,25-Apr,6,0,1,18.3,4.2,3.3,0,0,2,On_Time
+RUN-20,RSF-32,3.1.5,"Sprints 1-2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,27-Apr,7.5,0,1,27.2,4.2,1.4,3,0,8,Delayed
+RUN-20,RSF-33,3.2.1,"Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,Done,1-May,3,0,0,32,6.5,1,0,0,0,On_Time
+RUN-20,RSF-34,3.2.2,Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,Done,10-May,4.5,0,0,33.8,3.9,3.7,1,0,3,Delayed
+RUN-20,RSF-35,3.2.3,Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,Done,10-May,2,0,0,21.7,1.4,4.6,1,1,4,Delayed
+RUN-20,RSF-36,3.2.4,"Sprints 3-4 planning, review and retrospective",Phase 3: Implementation,Project_Management,In Review,29-May,7.5,0,0,32.5,4.2,9.5,0,0,5,Delayed
+RUN-20,RSF-37,3.3.1,Store clustering,Phase 3: Implementation,Modeling_ML,In Review,6-May,6,0,1,34.8,1.1,0,0,0,4,Delayed
+RUN-20,RSF-38,3.3.2,Product clustering,Phase 3: Implementation,Modeling_ML,In Review,13-May,3,0,1,31.9,1.8,1.6,0,1,4,Delayed
+RUN-20,RSF-39,3.3.3,Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,Done,17-May,1.5,0,0,30.8,0.8,0.9,0,2,6,Delayed
+RUN-20,RSF-40,3.4.1,Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,Done,26-May,9,0,0,27.8,3.9,0.6,0,2,3,Delayed
+RUN-20,RSF-41,3.4.2,Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,Done,7-Jun,12.5,0,1,26,1.1,0,1,0,5,Delayed
+RUN-20,RSF-42,3.4.3,Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,Done,13-Jun,4.5,0,0,32.9,3.6,1.3,0,0,2,On_Time
+RUN-20,RSF-43,3.4.4,Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,Done,19-May,12.5,0,1,31.7,6.6,0,0,0,0,On_Time
+RUN-20,RSF-44,3.4.5,Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,Done,12-Jun,5.5,0,1,26.7,5.2,0,0,1,3,Delayed
+RUN-20,RSF-45,3.4.6,"Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,Done,11-Jun,4,0,1,42,1,0.6,0,1,6,Delayed
+RUN-20,RSF-46,3.5.1,Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,Done,17-Jun,4,0,0,20.2,2,0.5,1,0,0,On_Time
+RUN-20,RSF-47,3.5.2,"Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,Done,28-May,8,0,0,27.3,4.9,0,0,1,6,Delayed
+RUN-20,RSF-48,3.5.3,Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,Done,8-Jun,4.5,0,0,24.3,6.3,1.1,0,1,4,Delayed
+RUN-20,RSF-49,3.5.4,End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,Done,22-Jun,3.5,0,0,30.7,0.8,1.6,0,0,1,On_Time
+RUN-20,RSF-50,3.5.5,"Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,Done,24-Jun,4,0,0,17.8,5.8,0.4,0,0,0,On_Time
+RUN-20,RSF-51,3.6,Gate 3 review package,Phase 3: Implementation,Governance_Gate,Done,3-Jul,2.5,1,1,35.5,4.2,1.3,1,0,0,On_Time
+RUN-20,RSF-52,3.7,Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,Done,2-Jul,0,1,0,34.1,4.1,0,0,1,0,On_Time
+RUN-20,RSF-53,4.1.1,Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,Done,16-Jul,9,0,1,30,6.7,1.9,1,0,1,On_Time
+RUN-20,RSF-54,4.1.2,Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,Done,28-Jul,9.5,0,0,26.8,5.4,0,1,1,4,Delayed
+RUN-20,RSF-55,4.2.1,Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,Done,6-Jul,4,0,1,32.5,6,4,0,2,7,Delayed
+RUN-20,RSF-56,4.2.2,Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,Done,6-Aug,4.5,0,1,30.3,2.8,2.1,1,1,8,Delayed
+RUN-20,RSF-57,4.3.1,"Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,In Review,28-Sep,26.5,0,0,33.8,4.1,3.3,1,1,10,Missed
+RUN-20,RSF-58,4.3.2,Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,In Review,8-Oct,7.5,0,1,27.9,4.5,1.4,1,1,7,Delayed
+RUN-20,RSF-59,4.3.3,Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,Done,20-Aug,18.5,0,0,27.5,2.6,1.2,1,2,7,Delayed
+RUN-20,RSF-60,4.4,Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,Done,15-Oct,3,1,0,34.5,4.2,0.3,1,0,3,Delayed
+RUN-20,RSF-61,4.5,Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,Done,12-Oct,0,1,0,32,2.1,1.9,0,1,5,Delayed
+RUN-20,RSF-62,5.1.1,Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,Done,18-Oct,4,0,1,27.6,1.5,1.8,0,1,5,Delayed
+RUN-20,RSF-63,5.1.2,Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,Done,15-Nov,22.5,0,1,30.6,3,1.6,0,0,1,On_Time
+RUN-20,RSF-64,5.2,Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,In Review,19-Nov,17.5,0,0,29.6,5.3,3.5,1,0,6,Delayed
+RUN-20,RSF-65,5.3.1,Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,In Review,20-Oct,2.5,0,0,31.1,6.5,4.6,0,0,1,On_Time
+RUN-20,RSF-66,5.3.2,Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,24-Nov,7,0,0,35.5,3.5,3.6,1,0,0,On_Time
+RUN-20,RSF-67,5.4.1,Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,In Progress,21-Feb,14.5,0,0,26.6,4.7,0.4,0,0,5,Delayed
+RUN-20,RSF-68,5.4.2,Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,Blocked,22-Feb,10,0,0,25,1.2,0,1,0,2,On_Time
+RUN-20,RSF-69,5.4.3,Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,20-Feb,3.5,0,0,30,6.4,0.2,1,0,6,Delayed
+RUN-20,RSF-70,5.5,First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,In Progress,23-Feb,0,1,0,25.6,4.2,0,0,0,0,On_Time
+RUN-20,RSF-71,6.1,Fortnightly status reports,Phase 6: Project Management,Project_Management,In Review,26-Feb,16.5,0,1,23.5,5.6,1.2,1,1,6,Delayed
+RUN-20,RSF-72,6.2,Risk management and change control,Phase 6: Project Management,Project_Management,In Progress,2-Mar,13.5,0,0,34,5.7,0.4,1,0,3,Delayed
+RUN-20,RSF-73,6.3,Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,2-Mar,4,0,1,27,2.2,5.1,0,0,2,On_Time
