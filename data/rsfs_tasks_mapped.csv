@@ -1,0 +1,46 @@
+Issue_Key,Task_ID,WBS_Code,Task_Name,Phase,Task_Category,Status,Story_Points,Is_Milestone_Gate,External_Dependency,Assignee_Active_Workload_SP,Assignee_Experience_Years,Upstream_Delay_Days,Workload_Source
+RSFS-73,RSF-73,6.3,6.3 Project closure and lessons learned,Phase 6: Project Management,Project_Management,To Do,3.5,0,0,29.0,4.3,0,calculated
+RSFS-72,RSF-72,6.2,6.2 Risk management and change control,Phase 6: Project Management,Project_Management,In Progress,14.5,0,0,16.5,4.3,0,calculated
+RSFS-71,RSF-71,6.1,6.1 Fortnightly status reports,Phase 6: Project Management,Project_Management,In Progress,14.5,0,0,16.5,4.3,0,calculated
+RSFS-70,RSF-70,5.5,5.5 First quarterly model performance review,Phase 5: Production Rollout,Modeling_ML,To Do,0.0,1,1,29.0,4.3,0,calculated
+RSFS-69,RSF-69,5.4.3,5.4.3 Model performance monitoring and reporting,Phase 5: Production Rollout,Modeling_ML,To Do,3.0,0,0,18.0,4.3,0,calculated
+RSFS-68,RSF-68,5.4.2,5.4.2 Retraining on new data and redeployment (as triggered),Phase 5: Production Rollout,Data_Engineering,To Do,9.5,0,0,12.0,4.3,0,calculated
+RSFS-67,RSF-67,5.4.1,5.4.1 Weekly Kanban review and alert triage,Phase 5: Production Rollout,Project_Management,To Do,12.0,0,0,29.0,4.3,0,calculated
+RSFS-66,RSF-66,5.3.2,5.3.2 Operations handover documentation,Phase 5: Production Rollout,Project_Management,To Do,6.0,0,0,15.0,4.3,0,calculated
+RSFS-65,RSF-65,5.3.1,5.3.1 Kanban board and alert ticket flow set up,Phase 5: Production Rollout,Project_Management,To Do,2.0,0,0,44.0,4.3,0,calculated
+RSFS-64,RSF-64,5.2,5.2 Company-wide training of store managers,Phase 5: Production Rollout,Stakeholder_Training,To Do,15.0,0,0,31.0,4.3,0,calculated
+RSFS-63,RSF-63,5.1.2,5.1.2 Deployed to all stores in waves,Phase 5: Production Rollout,Deployment_Ops,To Do,20.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-62,RSF-62,5.1.1,5.1.1 Rollout plan (store waves),Phase 5: Production Rollout,Deployment_Ops,To Do,3.5,0,0,29.0,4.3,0,calculated
+RSFS-61,RSF-61,4.5,4.5 Gate 4: Pilot results accepted,Phase 4: Pilot Deployment,Governance_Gate,To Do,0.0,1,1,24.6,4.3,0,no team owner: training median
+RSFS-60,RSF-60,4.4,4.4 Gate 4 review package,Phase 4: Pilot Deployment,Governance_Gate,To Do,2.5,0,0,29.0,4.3,0,calculated
+RSFS-59,RSF-59,4.3.3,4.3.3 Data pipelines and model extended to the remaining product categories (during the pilot run),Phase 4: Pilot Deployment,Data_Engineering,To Do,20.0,0,0,28.0,4.3,0,calculated
+RSFS-58,RSF-58,4.3.2,4.3.2 Pilot results report and user feedback,Phase 4: Pilot Deployment,Project_Management,To Do,8.0,0,1,29.0,4.3,0,calculated
+RSFS-57,RSF-57,4.3.1,"4.3.1 Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",Phase 4: Pilot Deployment,Deployment_Ops,To Do,28.0,0,1,29.0,4.3,0,calculated
+RSFS-56,RSF-56,4.2.2,4.2.2 Pilot store managers trained,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,5.0,0,1,29.0,4.3,0,calculated
+RSFS-55,RSF-55,4.2.1,4.2.1 Training materials,Phase 4: Pilot Deployment,Stakeholder_Training,To Do,4.0,0,0,29.0,4.3,0,calculated
+RSFS-54,RSF-54,4.1.2,4.1.2 Deployed and configured in 2-3 pilot stores,Phase 4: Pilot Deployment,Deployment_Ops,To Do,8.5,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-53,RSF-53,4.1.1,4.1.1 Solution containerized with Docker,Phase 4: Pilot Deployment,Deployment_Ops,To Do,7.5,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-52,RSF-52,3.7,3.7 Gate 3: Model beats baseline by target,Phase 3: Implementation,Governance_Gate,To Do,0.0,1,1,24.6,4.3,0,no team owner: training median
+RSFS-51,RSF-51,3.6,3.6 Gate 3 review package,Phase 3: Implementation,Governance_Gate,To Do,3.0,0,0,29.0,4.3,0,calculated
+RSFS-50,RSF-50,3.5.5,"3.5.5 Sprint 6 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,3.5,0,0,34.0,4.3,0,calculated
+RSFS-49,RSF-49,3.5.4,3.5.4 End-to-end testing and pilot readiness check,Phase 3: Implementation,Project_Management,To Do,3.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-48,RSF-48,3.5.3,3.5.3 Model versioning and CI/CD pipeline,Phase 3: Implementation,Data_Engineering,To Do,4.0,0,0,24.6,4.3,0,no team owner: training median
+RSFS-47,RSF-47,3.5.2,"3.5.2 Alerts, logging and monitoring dashboard implemented",Phase 3: Implementation,Deployment_Ops,To Do,7.5,0,0,9.0,4.3,0,calculated
+RSFS-46,RSF-46,3.5.1,3.5.1 Drift metrics and alert thresholds defined,Phase 3: Implementation,Modeling_ML,To Do,4.0,0,0,32.5,4.3,0,calculated
+RSFS-45,RSF-45,3.4.6,"3.4.6 Sprint 5 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,To Do,3.5,0,0,29.0,4.3,0,calculated
+RSFS-44,RSF-44,3.4.5,3.4.5 Unit and integration tests (independent of the developer),Phase 3: Implementation,Project_Management,To Do,5.0,0,0,12.0,4.3,0,calculated
+RSFS-43,RSF-43,3.4.4,3.4.4 Forecast service and output reports for store managers,Phase 3: Implementation,Project_Management,To Do,12.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-42,RSF-42,3.4.3,3.4.3 Evaluation against baseline and explainability (feature importance),Phase 3: Implementation,Data_Engineering,To Do,5.0,0,0,32.5,4.3,0,calculated
+RSFS-41,RSF-41,3.4.2,3.4.2 Hyperparameter tuning and time-series cross-validation,Phase 3: Implementation,Modeling_ML,To Do,12.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-40,RSF-40,3.4.1,3.4.1 Random Forest model v1 implemented (pilot product categories),Phase 3: Implementation,Modeling_ML,To Do,9.0,0,0,12.0,4.3,0,calculated
+RSFS-39,RSF-39,3.3.3,3.3.3 Clusters validated with Product Owner,Phase 3: Implementation,Stakeholder_Training,To Do,1.5,0,0,36.0,4.3,0,calculated
+RSFS-38,RSF-38,3.3.2,3.3.2 Product clustering,Phase 3: Implementation,Modeling_ML,To Do,3.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-37,RSF-37,3.3.1,3.3.1 Store clustering,Phase 3: Implementation,Modeling_ML,To Do,5.0,0,0,8.0,4.3,0,below training range: set to minimum
+RSFS-36,RSF-36,3.2.4,"3.2.4 Sprints 3–4 planning, review and retrospective",Phase 3: Implementation,Project_Management,To Do,7.0,0,0,31.5,4.3,0,calculated
+RSFS-35,RSF-35,3.2.3,3.2.3 Baseline report reviewed with Product Owner,Phase 3: Implementation,Modeling_ML,To Do,2.0,0,0,36.0,4.3,0,calculated
+RSFS-34,RSF-34,3.2.2,3.2.2 Baseline over/understock analysis,Phase 3: Implementation,Modeling_ML,To Do,4.0,0,0,12.0,4.3,0,calculated
+RSFS-33,RSF-33,3.2.1,"3.2.1 Baseline method defined (same period, previous year)",Phase 3: Implementation,Modeling_ML,To Do,2.5,0,0,36.0,4.3,0,calculated
+RSFS-32,RSF-32,3.1.5,"3.1.5 Sprints 1–2 planning, reviews and retrospectives",Phase 3: Implementation,Project_Management,In Progress,7.0,0,0,29.0,4.3,0,calculated
+RSFS-31,RSF-31,3.1.4,"3.1.4 Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",Phase 3: Implementation,Data_Engineering,To Do,5.0,0,0,8.0,4.3,6,below training range: set to minimum
+RSFS-30,RSF-30,3.1.3,"3.1.3 Feature engineering (lags, seasonality, promotion flags)",Phase 3: Implementation,Data_Engineering,In Progress,7.5,0,0,36.0,4.3,0,calculated
+RSFS-29,RSF-29,3.1.2,"3.1.2 Data cleaning for pilot product categories (missing values, duplicates, outliers)",Phase 3: Implementation,Data_Engineering,In Progress,10.0,0,0,8.0,4.3,0,below training range: set to minimum
