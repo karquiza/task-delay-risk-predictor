@@ -1,0 +1,470 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Labels,Labels,Labels,Labels,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Custom field (Delay Risk),Custom field (Development),Custom field (Issue color),Custom field (Rank),Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Parent,Parent key,Parent summary,Status category,Status category changed
+6.3 Project closure and lessons learned,RSFS-73,10153,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,17/Jan/28 12:00 AM,0,PM,PO,,,,,"*WBS 6.3* (Lab 5 Project Plan v2.00)
+
+* Duration: 4 working days (2028-01-12 to 2028-01-17)
+* Effort: 3.5 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 5.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-70,,,,,,,,,,{},,0|i000xq:,12/Jan/28 12:00 AM,3.5,,,10086,RSFS-6,6 Project management (all phases),To Do,02/Nov/26 2:34 PM
+6.2 Risk management and change control,RSFS-72,10152,Task,In Progress,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,17/Jan/28 12:00 AM,0,PM,,,,,,"*WBS 6.2* (Lab 5 Project Plan v2.00)
+
+* Duration: 288 working days (2026-11-23 to 2028-01-17)
+* Effort: 14.5 person-days
+* Resources (Lab 5 roles): PM
+* Predecessors: none
+
+*Simulation (as of 12 March 2027):* R1 monitoring (cleaning 4 days late, contained in Sprint 2); R2 closed (occurred, absorbed); R3 monitoring; R4, R5 open; R6 trigger fired (overallocation), backfill of the ML Engineer role proposed for Sprints 3–6.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,,,,,,,,,,,{},,0|i000xo:,23/Nov/26 12:00 AM,14.5,,,10086,RSFS-6,6 Project management (all phases),In Progress,02/Nov/26 2:37 PM
+6.1 Fortnightly status reports,RSFS-71,10151,Task,In Progress,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,17/Jan/28 12:00 AM,0,PM,,,,,,"*WBS 6.1* (Lab 5 Project Plan v2.00)
+
+* Duration: 288 working days (2026-11-23 to 2028-01-17)
+* Effort: 14.5 person-days
+* Resources (Lab 5 roles): PM
+* Predecessors: none",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,,,,,,,,,,,{},,0|i000xe:,23/Nov/26 12:00 AM,14.5,,,10086,RSFS-6,6 Project management (all phases),In Progress,02/Nov/26 2:37 PM
+5.5 First quarterly model performance review,RSFS-70,10150,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,11/Jan/28 12:00 AM,0,gate,PO,SP,,,,"*WBS 5.5* (Lab 5 Project Plan v2.00)
+
+* Milestone (0 days) on 2028-01-11
+* Approval: PO (Product Owner), SP (Project Sponsor)
+* Predecessors: 5.4",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-67,,,,RSFS-73,,,,,,{},,0|i000xb:,11/Jan/28 12:00 AM,0.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.4.3 Model performance monitoring and reporting,RSFS-69,10149,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,10/Jan/28 12:00 AM,0,DS,wbs-5-4,,,,,"*WBS 5.4.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.4 Monitoring and retraining, first quarter (continues after)
+* Duration: 65 working days (2027-10-06 to 2028-01-10)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): DS
+* Predecessors: 5.1.2, 5.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-63,RSFS-65,,,,,,,,,{},,0|i000x0:,06/Oct/27 12:00 AM,3.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.4.2 Retraining on new data and redeployment (as triggered),RSFS-68,10148,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,10/Jan/28 12:00 AM,0,DO,MLE,wbs-5-4,,,,"*WBS 5.4.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.4 Monitoring and retraining, first quarter (continues after)
+* Duration: 65 working days (2027-10-06 to 2028-01-10)
+* Effort: 9.5 person-days
+* Resources (Lab 5 roles): MLE, DO
+* Predecessors: 5.1.2, 5.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-63,RSFS-65,,,,,,,,,{},,0|i000ww:,06/Oct/27 12:00 AM,9.5,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.4.1 Weekly Kanban review and alert triage,RSFS-67,10147,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,10/Jan/28 12:00 AM,0,DS,MLE,PM,PO,wbs-5-4,,"*WBS 5.4.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.4 Monitoring and retraining, first quarter (continues after)
+* Duration: 65 working days (2027-10-06 to 2028-01-10)
+* Effort: 12.0 person-days
+* Resources (Lab 5 roles): PO, DS, MLE, PM
+* Predecessors: 5.1.2, 5.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-63,RSFS-65,,,RSFS-70,,,,,,{},,0|i000wk:,06/Oct/27 12:00 AM,12.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.3.2 Operations handover documentation,RSFS-66,10146,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,12/Oct/27 12:00 AM,0,DO,DS,SE,wbs-5-3,,,"*WBS 5.3.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.3 Kanban setup and handover
+* Duration: 4 working days (2027-10-06 to 2027-10-12)
+* Effort: 6.0 person-days
+* Resources (Lab 5 roles): SE, DS, DO
+* Predecessors: 5.1.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-63,,,,,,,,,,{},,0|i000wf:,06/Oct/27 12:00 AM,6.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.3.1 Kanban board and alert ticket flow set up,RSFS-65,10145,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:37 PM,,,10/Sep/27 12:00 AM,0,PM,PO,wbs-5-3,,,,"*WBS 5.3.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.3 Kanban setup and handover
+* Duration: 3 working days (2027-09-08 to 2027-09-10)
+* Effort: 2.0 person-days
+* Resources (Lab 5 roles): PO, PM
+* Predecessors: 4.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-61,,,,RSFS-67,RSFS-68,RSFS-69,,,,{},,0|i000w2:,08/Sep/27 12:00 AM,2.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.2 Company-wide training of store managers,RSFS-64,10144,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,05/Oct/27 12:00 AM,0,PM,PO,,,,,"*WBS 5.2* (Lab 5 Project Plan v2.00)
+
+* Duration: 20 working days (2027-09-08 to 2027-10-05)
+* Effort: 15.0 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 5.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-62,,,,,,,,,,{},,0|i000vw:,08/Sep/27 12:00 AM,15.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.1.2 Deployed to all stores in waves,RSFS-63,10143,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,05/Oct/27 12:00 AM,0,DE,DO,SE,wbs-5-1,,,"*WBS 5.1.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.1 Company-wide deployment
+* Duration: 20 working days (2027-09-08 to 2027-10-05)
+* Effort: 20.0 person-days
+* Resources (Lab 5 roles): DO, SE, DE
+* Predecessors: 5.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-62,,,,RSFS-66,RSFS-67,RSFS-68,RSFS-69,,,{},,0|i000vi:,08/Sep/27 12:00 AM,20.0,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+5.1.1 Rollout plan (store waves),RSFS-62,10142,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,07/Sep/27 12:00 AM,0,DO,PM,wbs-5-1,,,,"*WBS 5.1.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 5.1 Company-wide deployment
+* Duration: 3 working days (2027-09-02 to 2027-09-07)
+* Effort: 3.5 person-days
+* Resources (Lab 5 roles): PM, DO
+* Predecessors: 4.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-61,,,,RSFS-63,RSFS-64,,,,,{},,0|i000vb:,02/Sep/27 12:00 AM,3.5,,,10085,RSFS-5,5 Phase 5: Production monitoring and retraining (Kanban),To Do,02/Nov/26 2:34 PM
+4.5 Gate 4: Pilot results accepted,RSFS-61,10141,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,01/Sep/27 12:00 AM,0,gate,SM,SP,,,,"*WBS 4.5* (Lab 5 Project Plan v2.00)
+
+* Milestone (0 days) on 2027-09-01
+* Approval: SP (Project Sponsor), SM (Store Managers)
+* Predecessors: 4.4",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-60,,,,RSFS-62,RSFS-65,,,,,{},,0|i000uw:,01/Sep/27 12:00 AM,0.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.4 Gate 4 review package,RSFS-60,10140,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,31/Aug/27 12:00 AM,0,gate-package,PM,PO,,,,"*WBS 4.4* (Lab 5 Project Plan v2.00)
+
+* Duration: 3 working days (2027-08-27 to 2027-08-31)
+* Effort: 2.5 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 4.3.2, 4.3.3",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-58,RSFS-59,,,RSFS-61,,,,,,{},,0|i000uo:,27/Aug/27 12:00 AM,2.5,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.3.3 Data pipelines and model extended to the remaining product categories (during the pilot run),RSFS-59,10139,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,09/Jul/27 12:00 AM,0,DE,DS,MLE,wbs-4-3,,,"*WBS 4.3.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.3 Pilot run and results
+* Duration: 12 working days (2027-06-23 to 2027-07-09)
+* Effort: 20.0 person-days
+* Resources (Lab 5 roles): DS, MLE, DE
+* Predecessors: 4.2.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-56,,,,RSFS-60,,,,,,{},,0|i000un:,23/Jun/27 12:00 AM,20.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.3.2 Pilot results report and user feedback,RSFS-58,10138,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,26/Aug/27 12:00 AM,0,DS,PO,SM,wbs-4-3,,,"*WBS 4.3.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.3 Pilot run and results
+* Duration: 5 working days (2027-08-20 to 2027-08-26)
+* Effort: 8.0 person-days
+* Resources (Lab 5 roles): PO, DS, SM
+* Predecessors: 4.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-57,,,,RSFS-60,,,,,,{},,0|i000ue:,20/Aug/27 12:00 AM,8.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+"4.3.1 Pilot run and performance monitoring (~2 months, incl. a seasonal promotion)",RSFS-57,10137,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,19/Aug/27 12:00 AM,0,DO,DS,MLE,PO,SM,wbs-4-3,"*WBS 4.3.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.3 Pilot run and results
+* Duration: 40 working days (2027-06-23 to 2027-08-19)
+* Effort: 28.0 person-days
+* Resources (Lab 5 roles): SM, DS, MLE, DO, PO
+* Predecessors: 4.2.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-56,,,,RSFS-58,,,,,,{},,0|i000uc:,23/Jun/27 12:00 AM,28.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.2.2 Pilot store managers trained,RSFS-56,10136,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,22/Jun/27 12:00 AM,0,PM,PO,SM,wbs-4-2,,,"*WBS 4.2.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.2 Pilot user training
+* Duration: 2 working days (2027-06-21 to 2027-06-22)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): PM, PO, SM
+* Predecessors: 4.1.2, 4.2.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-54,RSFS-55,,,RSFS-57,RSFS-59,,,,,{},,0|i000u2:,21/Jun/27 12:00 AM,5.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.2.1 Training materials,RSFS-55,10135,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:34 PM,02/Nov/26 2:36 PM,,,26/May/27 12:00 AM,0,MLE,PM,PO,wbs-4-2,,,"*WBS 4.2.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.2 Pilot user training
+* Duration: 3 working days (2027-05-21 to 2027-05-26)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): PM, PO, MLE
+* Predecessors: 3.7",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-52,,,,RSFS-56,,,,,,{},,0|i000tz:,21/May/27 12:00 AM,4.0,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:34 PM
+4.1.2 Deployed and configured in 2-3 pilot stores,RSFS-54,10134,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,18/Jun/27 12:00 AM,0,DE,DO,SE,wbs-4-1,,,"*WBS 4.1.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.1 Pilot deployment setup
+* Duration: 10 working days (2027-06-07 to 2027-06-18)
+* Effort: 8.5 person-days
+* Resources (Lab 5 roles): DO, SE, DE
+* Predecessors: 4.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-53,,,,RSFS-56,,,,,,{},,0|i000to:,07/Jun/27 12:00 AM,8.5,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:33 PM
+4.1.1 Solution containerized with Docker,RSFS-53,10133,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,04/Jun/27 12:00 AM,0,DO,SE,wbs-4-1,,,,"*WBS 4.1.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 4.1 Pilot deployment setup
+* Duration: 10 working days (2027-05-21 to 2027-06-04)
+* Effort: 7.5 person-days
+* Resources (Lab 5 roles): DO, SE
+* Predecessors: 3.7",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-52,,,,RSFS-54,,,,,,{},,0|i000tk:,21/May/27 12:00 AM,7.5,,,10084,RSFS-4,4 Phase 4: Pilot deployment,To Do,02/Nov/26 2:33 PM
+3.7 Gate 3: Model beats baseline by target,RSFS-52,10132,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,20/May/27 12:00 AM,0,gate,SP,,,,,"*WBS 3.7* (Lab 5 Project Plan v2.00)
+
+* Milestone (0 days) on 2027-05-20
+* Approval: SP (Project Sponsor)
+* Predecessors: 3.6",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-51,,,,RSFS-53,RSFS-55,,,,,{},,0|i000t8:,20/May/27 12:00 AM,0.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.6 Gate 3 review package,RSFS-51,10131,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,19/May/27 12:00 AM,0,DS,gate-package,PM,PO,,,"*WBS 3.6* (Lab 5 Project Plan v2.00)
+
+* Duration: 3 working days (2027-05-17 to 2027-05-19)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): PM, PO, DS
+* Predecessors: 3.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-50,,,,RSFS-52,,,,,,{},,0|i000t3:,17/May/27 12:00 AM,3.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+"3.5.5 Sprint 6 planning, review and retrospective",RSFS-50,10130,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,14/May/27 12:00 AM,0,PM,PO,wbs-3-5,,,,"*WBS 3.5.5* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.5 Drift alerts feature (Sprint 6)
+* Duration: 10 working days (2027-05-03 to 2027-05-14)
+* Effort: 3.5 person-days
+* Resources (Lab 5 roles): PO, PM
+* Predecessors: 3.4",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-42,,,,RSFS-51,,,,,,{},,0|i000sq:,03/May/27 12:00 AM,3.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.5.4 End-to-end testing and pilot readiness check,RSFS-49,10129,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,12/May/27 12:00 AM,0,DE,SE,wbs-3-5,,,,"*WBS 3.5.4* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.5 Drift alerts feature (Sprint 6)
+* Duration: 3 working days (2027-05-10 to 2027-05-12)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): DE, SE
+* Predecessors: 3.5.1, 3.5.2, 3.5.3, 3.4.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-44,RSFS-46,RSFS-47,RSFS-48,,,,,,,{},,0|i000sk:,10/May/27 12:00 AM,3.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.5.3 Model versioning and CI/CD pipeline,RSFS-48,10128,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,28/Apr/27 12:00 AM,0,DO,wbs-3-5,,,,,"*WBS 3.5.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.5 Drift alerts feature (Sprint 6)
+* Duration: 8 working days (2027-04-19 to 2027-04-28)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): DO
+* Predecessors: 3.4.4",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-43,,,,RSFS-49,,,,,,{},,0|i000s6:,19/Apr/27 12:00 AM,4.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+"3.5.2 Alerts, logging and monitoring dashboard implemented",RSFS-47,10127,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,16/Apr/27 12:00 AM,0,DO,SE,wbs-3-5,,,,"*WBS 3.5.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.5 Drift alerts feature (Sprint 6)
+* Duration: 7 working days (2027-04-08 to 2027-04-16)
+* Effort: 7.5 person-days
+* Resources (Lab 5 roles): SE, DO
+* Predecessors: 3.4.4",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-43,,,,RSFS-49,,,,,,{},,0|i000rz:,08/Apr/27 12:00 AM,7.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.5.1 Drift metrics and alert thresholds defined,RSFS-46,10126,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,07/May/27 12:00 AM,0,MLE,PO,wbs-3-5,,,,"*WBS 3.5.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.5 Drift alerts feature (Sprint 6)
+* Duration: 4 working days (2027-05-04 to 2027-05-07)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): MLE, PO
+* Predecessors: 3.4.3",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-42,,,,RSFS-49,,,,,,{},,0|i000rk:,04/May/27 12:00 AM,4.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+"3.4.6 Sprint 5 planning, reviews and retrospectives",RSFS-45,10125,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,30/Apr/27 12:00 AM,0,PM,PO,wbs-3-4,,,,"*WBS 3.4.6* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 10 working days (2027-04-19 to 2027-04-30)
+* Effort: 3.5 person-days
+* Resources (Lab 5 roles): PO, PM
+* Predecessors: 3.2, 3.3",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-36,RSFS-39,,,,,,,,,{},,0|i000rc:,19/Apr/27 12:00 AM,3.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.4.5 Unit and integration tests (independent of the developer),RSFS-44,10124,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,02/Nov/26 6:34 PM,,26/Apr/27 12:00 AM,0,DE,wbs-3-4,,,,,"*WBS 3.4.5* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 7 working days (2027-04-16 to 2027-04-26)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): DE
+* Predecessors: 3.4.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-40,,,,RSFS-49,,,,,,{},,0|i000rb:,16/Apr/27 12:00 AM,5.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.4.4 Forecast service and output reports for store managers,RSFS-43,10123,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,07/Apr/27 12:00 AM,0,SE,wbs-3-4,,,,,"*WBS 3.4.4* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 15 working days (2027-03-17 to 2027-04-07)
+* Effort: 12.0 person-days
+* Resources (Lab 5 roles): SE
+* Predecessors: 3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-32,,,,RSFS-47,RSFS-48,,,,,{},,0|i000r2:,17/Mar/27 12:00 AM,12.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.4.3 Evaluation against baseline and explainability (feature importance),RSFS-42,10122,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,03/May/27 12:00 AM,0,DE,DS,PO,wbs-3-4,,,"*WBS 3.4.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 4 working days (2027-04-28 to 2027-05-03)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): DS, DE, PO
+* Predecessors: 3.4.2, 3.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-36,RSFS-41,,,RSFS-46,RSFS-50,,,,,{},,0|i000r0:,28/Apr/27 12:00 AM,5.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.4.2 Hyperparameter tuning and time-series cross-validation,RSFS-41,10121,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,27/Apr/27 12:00 AM,0,DS,MLE,wbs-3-4,,,,"*WBS 3.4.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 8 working days (2027-04-16 to 2027-04-27)
+* Effort: 12.0 person-days
+* Resources (Lab 5 roles): DS, MLE
+* Predecessors: 3.4.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-40,,,,RSFS-42,,,,,,{},,0|i000qq:,16/Apr/27 12:00 AM,12.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.4.1 Random Forest model v1 implemented (pilot product categories),RSFS-40,10120,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,15/Apr/27 12:00 AM,0,DS,MLE,wbs-3-4,,,,"*WBS 3.4.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.4 Random Forest model, trained and tuned (Sprints 4–6)
+* Duration: 8 working days (2027-04-06 to 2027-04-15)
+* Effort: 9.0 person-days
+* Resources (Lab 5 roles): DS, MLE
+* Predecessors: 3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-32,,,,RSFS-41,RSFS-44,,,,,{},,0|i000qn:,06/Apr/27 12:00 AM,9.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.3.3 Clusters validated with Product Owner,RSFS-39,10119,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,05/Apr/27 12:00 AM,0,MLE,PO,wbs-3-3,,,,"*WBS 3.3.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.3 Store and product clusters (Sprints 2–4)
+* Duration: 2 working days (2027-04-02 to 2027-04-05)
+* Effort: 1.5 person-days
+* Resources (Lab 5 roles): MLE, PO
+* Predecessors: 3.3.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-38,,,,RSFS-45,,,,,,{},,0|i000qc:,02/Apr/27 12:00 AM,1.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.3.2 Product clustering,RSFS-38,10118,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,01/Apr/27 12:00 AM,0,MLE,wbs-3-3,,,,,"*WBS 3.3.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.3 Store and product clusters (Sprints 2–4)
+* Duration: 4 working days (2027-03-29 to 2027-04-01)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): MLE
+* Predecessors: 3.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-37,,,,RSFS-39,,,,,,{},,0|i000q8:,29/Mar/27 12:00 AM,3.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.3.1 Store clustering,RSFS-37,10117,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,25/Mar/27 12:00 AM,0,MLE,wbs-3-3,,,,,"*WBS 3.3.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.3 Store and product clusters (Sprints 2–4)
+* Duration: 7 working days (2027-03-17 to 2027-03-25)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): MLE
+* Predecessors: 3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-32,,,,RSFS-38,,,,,,{},,0|i000pw:,17/Mar/27 12:00 AM,5.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+"3.2.4 Sprints 3–4 planning, review and retrospective",RSFS-36,10116,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:33 PM,02/Nov/26 2:36 PM,,,16/Apr/27 12:00 AM,0,PM,PO,wbs-3-2,,,,"*WBS 3.2.4* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.2 Baseline report (Sprints 2–3)
+* Duration: 20 working days (2027-03-19 to 2027-04-16)
+* Effort: 7.0 person-days
+* Resources (Lab 5 roles): PO, PM
+* Predecessors: 3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-32,,,,RSFS-42,RSFS-45,,,,,{},,0|i000pr:,19/Mar/27 12:00 AM,7.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:33 PM
+3.2.3 Baseline report reviewed with Product Owner,RSFS-35,10115,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:35 PM,,,31/Mar/27 12:00 AM,0,DS,PO,wbs-3-2,,,,"*WBS 3.2.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.2 Baseline report (Sprints 2–3)
+* Duration: 2 working days (2027-03-30 to 2027-03-31)
+* Effort: 2.0 person-days
+* Resources (Lab 5 roles): DS, PO
+* Predecessors: 3.2.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-34,,,,,,,,,,{},,0|i000pe:,30/Mar/27 12:00 AM,2.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:32 PM
+3.2.2 Baseline over/understock analysis,RSFS-34,10114,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:35 PM,,,29/Mar/27 12:00 AM,0,DS,wbs-3-2,,,,,"*WBS 3.2.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.2 Baseline report (Sprints 2–3)
+* Duration: 5 working days (2027-03-22 to 2027-03-29)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): DS
+* Predecessors: 3.2.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-33,,,,RSFS-35,,,,,,{},,0|i000p8:,22/Mar/27 12:00 AM,4.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:32 PM
+"3.2.1 Baseline method defined (same period, previous year)",RSFS-33,10113,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:35 PM,,,19/Mar/27 12:00 AM,0,DS,PO,wbs-3-2,,,,"*WBS 3.2.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.2 Baseline report (Sprints 2–3)
+* Duration: 3 working days (2027-03-17 to 2027-03-19)
+* Effort: 2.5 person-days
+* Resources (Lab 5 roles): DS, PO
+* Predecessors: 3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-32,,,,RSFS-34,,,,,,{},,0|i000ou:,17/Mar/27 12:00 AM,2.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:32 PM
+"3.1.5 Sprints 1–2 planning, reviews and retrospectives",RSFS-32,10112,Task,In Progress,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,02/Nov/26 2:44 PM,,18/Mar/27 12:00 AM,0,PM,PO,wbs-3-1,,,,"*WBS 3.1.5* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.1 Cleaned dataset and target features (Sprints 1–2)
+* Duration: 20 working days (2027-02-19 to 2027-03-18)
+* Effort: 7.0 person-days
+* Resources (Lab 5 roles): PO, PM
+* Predecessors: 2.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-27,,,,RSFS-33,RSFS-36,RSFS-37,RSFS-40,RSFS-43,,{},,0|i000on:,19/Feb/27 12:00 AM,7.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",In Progress,02/Nov/26 2:37 PM
+"3.1.4 Cleaned dataset validated (automated data tests, reviewed by Lead Data Scientist)",RSFS-31,10111,Task,To Do,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:35 PM,,,18/Mar/27 12:00 AM,0,DE,DS,slipped,wbs-3-1,,,"*WBS 3.1.4* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.1 Cleaned dataset and target features (Sprints 1–2)
+* Duration: 4 working days (2027-03-10 to 2027-03-15)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): DE, DS
+* Predecessors: 3.1.2
+
+*Simulation (as of 12 March 2027):* baseline 2027-03-10 to 2027-03-15; revised 2027-03-16 to 2027-03-18. Shifted by the 3.1.2 delay (R1); compressed to stay inside Sprint 2.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-29,,,,,,,,,,{},,0|i000o8:,16/Mar/27 12:00 AM,5.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",To Do,02/Nov/26 2:32 PM
+"3.1.3 Feature engineering (lags, seasonality, promotion flags)",RSFS-30,10110,Task,In Progress,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,16/Nov/26 5:42 PM,,16/Mar/27 12:00 AM,0,MLE,PO,wbs-3-1,,,,"*WBS 3.1.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.1 Cleaned dataset and target features (Sprints 1–2)
+* Duration: 9 working days (2027-03-04 to 2027-03-16)
+* Effort: 7.5 person-days
+* Resources (Lab 5 roles): MLE, PO
+* Predecessors: 3.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-28,,,,,,,,,,{},,0|i000o0:,04/Mar/27 12:00 AM,7.5,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",In Progress,02/Nov/26 2:37 PM
+"3.1.2 Data cleaning for pilot product categories (missing values, duplicates, outliers)",RSFS-29,10109,Task,In Progress,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,14/Nov/26 10:52 PM,16/Nov/26 7:22 PM,,15/Mar/27 12:00 AM,0,DS,slipped,wbs-3-1,,,,"*WBS 3.1.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.1 Cleaned dataset and target features (Sprints 1–2)
+* Duration: 13 working days (2027-02-19 to 2027-03-09)
+* Effort: 10.0 person-days
+* Resources (Lab 5 roles): DS
+* Predecessors: 2.5
+
+*Simulation (as of 12 March 2027):* baseline 2027-02-19 to 2027-03-09; revised 2027-02-19 to 2027-03-15. Forecast 4 working days late: messy promotions data (risk R1 triggered).",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-27,,,,RSFS-31,,,,,High,{},,0|i000nz:,19/Feb/27 12:00 AM,10.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",In Progress,02/Nov/26 2:37 PM
+"3.1.1 Data ingestion pipelines built for pilot stores and categories (POS, promotions, store, product)",RSFS-28,10108,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,03/Mar/27 12:00 AM,0,DE,DO,wbs-3-1,,,,"*WBS 3.1.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 3.1 Cleaned dataset and target features (Sprints 1–2)
+* Duration: 9 working days (2027-02-19 to 2027-03-03)
+* Effort: 9.0 person-days
+* Resources (Lab 5 roles): DE, DO
+* Predecessors: 2.5",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-27,,,,RSFS-30,,,,,,{},,0|i000nq:,19/Feb/27 12:00 AM,9.0,,,10083,RSFS-3,"3 Phase 3: Implementation (Scrum, 2-week sprints)",Done,02/Nov/26 2:37 PM
+2.5 Gate 2: Data governance sign-off,RSFS-27,10107,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,18/Feb/27 12:00 AM,0,gate,PE,SP,,,,"*WBS 2.5* (Lab 5 Project Plan v2.00)
+
+* Milestone (0 days) on 2027-02-18
+* Approval: SP (Project Sponsor), PE (Privacy/Ethics Officer)
+* Predecessors: 2.4
+
+*Simulation (as of 12 March 2027):* Gate 2 passed on schedule on 18 February 2027.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-26,,,,RSFS-28,RSFS-29,RSFS-32,,,,{},,0|i000no:,18/Feb/27 12:00 AM,0.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.4 Gate 2 review package,RSFS-26,10106,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,17/Feb/27 12:00 AM,0,gate-package,PM,PO,slipped,,,"*WBS 2.4* (Lab 5 Project Plan v2.00)
+
+* Duration: 3 working days (2027-02-12 to 2027-02-17)
+* Effort: 2.5 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 2.1.3, 2.2.4, 2.3.2
+
+*Simulation (as of 12 March 2027):* baseline 2027-02-12 to 2027-02-17; revised 2027-02-17 to 2027-02-17. Gate 2 package compressed to 1 day so Gate 2 stays on 18 Feb.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-19,RSFS-23,RSFS-25,,RSFS-27,,,,,,{},,0|i000ne:,17/Feb/27 12:00 AM,2.5,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.3.2 Data quality assessment report,RSFS-25,10105,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,16/Feb/27 12:00 AM,0,DS,slipped,wbs-2-3,,,,"*WBS 2.3.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.3 Initial data quality assessment
+* Duration: 3 working days (2027-02-09 to 2027-02-11)
+* Effort: 2.0 person-days
+* Resources (Lab 5 roles): DS
+* Predecessors: 2.3.1
+
+*Simulation (as of 12 March 2027):* baseline 2027-02-09 to 2027-02-11; revised 2027-02-11 to 2027-02-16. Shifted by the 2.1.2 delay (R2).",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-24,,,,RSFS-26,,,,,,{},,0|i000nb:,11/Feb/27 12:00 AM,2.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.3.1 Exploratory data analysis (EDA) on source data,RSFS-24,10104,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,10/Feb/27 12:00 AM,0,DS,MLE,slipped,wbs-2-3,,,"*WBS 2.3.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.3 Initial data quality assessment
+* Duration: 7 working days (2027-01-29 to 2027-02-08)
+* Effort: 7.5 person-days
+* Resources (Lab 5 roles): DS, MLE
+* Predecessors: 2.1.2
+
+*Simulation (as of 12 March 2027):* baseline 2027-01-29 to 2027-02-08; revised 2027-02-03 to 2027-02-10. Started late after 2.1.2 slipped (R2); EDA compressed to 6 days.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-18,,,,RSFS-25,,,,,,{},,0|i000n0:,03/Feb/27 12:00 AM,7.5,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.2.4 Privacy/Ethics officer review,RSFS-23,10103,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,04/Feb/27 12:00 AM,0,PE,PM,wbs-2-2,,,,"*WBS 2.2.4* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.2 Privacy and bias assessment
+* Duration: 5 working days (2027-01-29 to 2027-02-04)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): PE, PM
+* Predecessors: 2.2.3",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-22,,,,RSFS-26,,,,,,{},,0|i000mw:,29/Jan/27 12:00 AM,3.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.2.3 Privacy impact and bias risk assessment report,RSFS-22,10102,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,28/Jan/27 12:00 AM,0,MLE,PE,wbs-2-2,,,,"*WBS 2.2.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.2 Privacy and bias assessment
+* Duration: 3 working days (2027-01-26 to 2027-01-28)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): MLE, PE
+* Predecessors: 2.2.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-21,,,,RSFS-23,,,,,,{},,0|i000mk:,26/Jan/27 12:00 AM,3.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+"2.2.2 Potential bias assessed (e.g., across store groups)",RSFS-21,10101,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,25/Jan/27 12:00 AM,0,MLE,PO,wbs-2-2,,,,"*WBS 2.2.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.2 Privacy and bias assessment
+* Duration: 3 working days (2027-01-21 to 2027-01-25)
+* Effort: 2.5 person-days
+* Resources (Lab 5 roles): MLE, PO
+* Predecessors: 2.2.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-20,,,,RSFS-22,,,,,,{},,0|i000mf:,21/Jan/27 12:00 AM,2.5,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.2.1 Personal data and privacy risks mapped,RSFS-20,10100,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,20/Jan/27 12:00 AM,0,MLE,PE,wbs-2-2,,,,"*WBS 2.2.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.2 Privacy and bias assessment
+* Duration: 4 working days (2027-01-15 to 2027-01-20)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): MLE, PE
+* Predecessors: 2.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-17,,,,RSFS-21,,,,,,{},,0|i000m2:,15/Jan/27 12:00 AM,4.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.1.3 Data collection and storage setup defined,RSFS-19,10099,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,26/Jan/27 12:00 AM,0,DE,DO,wbs-2-1,,,,"*WBS 2.1.3* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.1 Data sources and access
+* Duration: 8 working days (2027-01-15 to 2027-01-26)
+* Effort: 6.0 person-days
+* Resources (Lab 5 roles): DO, DE
+* Predecessors: 2.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-17,,,,RSFS-26,,,,,,{},,0|i000lw:,15/Jan/27 12:00 AM,6.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+2.1.2 Data access requested and granted,RSFS-18,10098,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:32 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,02/Feb/27 12:00 AM,0,DE,PM,slipped,wbs-2-1,,,"*WBS 2.1.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.1 Data sources and access
+* Duration: 10 working days (2027-01-15 to 2027-01-28)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): PM, DE
+* Predecessors: 2.1.1
+
+*Simulation (as of 12 March 2027):* baseline 2027-01-15 to 2027-01-28; revised 2027-01-15 to 2027-02-02. Data access granted 3 working days late (risk R2 triggered).",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-17,,,,RSFS-24,,,,,,{},,0|i000li:,15/Jan/27 12:00 AM,5.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+"2.1.1 Data sources identified (POS, promotions, store and product data)",RSFS-17,10097,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,14/Jan/27 12:00 AM,0,DE,PO,wbs-2-1,,,,"*WBS 2.1.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 2.1 Data sources and access
+* Duration: 4 working days (2027-01-11 to 2027-01-14)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): DE, PO
+* Predecessors: 1.6",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-16,,,,RSFS-18,RSFS-19,RSFS-20,,,,{},,0|i000lb:,11/Jan/27 12:00 AM,4.0,,,10082,RSFS-2,2 Phase 2: Data governance,Done,02/Nov/26 2:37 PM
+1.6 Gate 1: Approval to build (vs buy),RSFS-16,10096,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,08/Jan/27 12:00 AM,0,gate,SP,,,,,"*WBS 1.6* (Lab 5 Project Plan v2.00)
+
+* Milestone (0 days) on 2027-01-08
+* Approval: SP (Project Sponsor)
+* Predecessors: 1.5
+
+*Simulation (as of 12 March 2027):* Gate 1 passed on 8 January 2027.",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-15,,,,RSFS-17,,,,,,{},,0|i000kw:,08/Jan/27 12:00 AM,0.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.5 Gate 1 review package,RSFS-15,10095,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,07/Jan/27 12:00 AM,0,gate-package,PM,PO,,,,"*WBS 1.5* (Lab 5 Project Plan v2.00)
+
+* Duration: 3 working days (2027-01-05 to 2027-01-07)
+* Effort: 2.5 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 1.4.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-14,,,,RSFS-16,,,,,,{},,0|i000ko:,05/Jan/27 12:00 AM,2.5,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.4.2 Project plan,RSFS-14,10094,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,04/Jan/27 12:00 AM,0,PM,PO,wbs-1-4,,,,"*WBS 1.4.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.4 Project plan and team charter
+* Duration: 5 working days (2026-12-24 to 2027-01-04)
+* Effort: 4.0 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: 1.2.1, 1.2.2, 1.3.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-9,RSFS-10,RSFS-12,,RSFS-15,,,,,,{},,0|i000kn:,24/Dec/26 12:00 AM,4.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.4.1 Team charter,RSFS-13,10093,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,25/Nov/26 12:00 AM,0,PM,PO,wbs-1-4,,,,"*WBS 1.4.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.4 Project plan and team charter
+* Duration: 3 working days (2026-11-23 to 2026-11-25)
+* Effort: 2.0 person-days
+* Resources (Lab 5 roles): PM, PO
+* Predecessors: none",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,,,,,RSFS-7,,,,,,{},,0|i000ke:,23/Nov/26 12:00 AM,2.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.3.2 High-level solution design,RSFS-12,10092,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,16/Nov/26 7:22 PM,02/Nov/26 2:37 PM,23/Dec/26 12:00 AM,0,DE,DO,DS,SE,wbs-1-3,,"*WBS 1.3.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.3 Initial design
+* Duration: 4 working days (2026-12-18 to 2026-12-23)
+* Effort: 7.0 person-days
+* Resources (Lab 5 roles): DS, SE, DE, DO
+* Predecessors: 1.3.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-11,,,,RSFS-14,,,,,,{},,0|i000kc:,18/Dec/26 12:00 AM,7.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+"1.3.1 Candidate ML algorithms selected (clustering, Random Forest)",RSFS-11,10091,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,17/Dec/26 12:00 AM,0,DS,MLE,wbs-1-3,,,,"*WBS 1.3.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.3 Initial design
+* Duration: 3 working days (2026-12-15 to 2026-12-17)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): DS, MLE
+* Predecessors: 1.1.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-8,,,,RSFS-12,,,,,,{},,0|i000k2:,15/Dec/26 12:00 AM,3.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.2.2 Technical and data feasibility check,RSFS-10,10090,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,14/Dec/26 12:00 AM,0,DE,DS,wbs-1-2,,,,"*WBS 1.2.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.2 Feasibility checks
+* Duration: 2 working days (2026-12-11 to 2026-12-14)
+* Effort: 3.0 person-days
+* Resources (Lab 5 roles): DS, DE
+* Predecessors: 1.1.2",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-8,,,,RSFS-14,,,,,,{},,0|i000jz:,11/Dec/26 12:00 AM,3.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.2.1 Build-vs-buy comparison (vendor tools vs in-house),RSFS-9,10089,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,10/Dec/26 12:00 AM,0,DS,PM,wbs-1-2,,,,"*WBS 1.2.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.2 Feasibility checks
+* Duration: 6 working days (2026-12-03 to 2026-12-10)
+* Effort: 5.0 person-days
+* Resources (Lab 5 roles): PM, DS
+* Predecessors: 1.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-7,,,,RSFS-14,,,,,,{},,0|i000jo:,03/Dec/26 12:00 AM,5.0,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+1.1.2 Business problem and success criteria defined,RSFS-8,10088,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,09/Dec/26 12:00 AM,0,PO,SP,wbs-1-1,,,,"*WBS 1.1.2* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.1 Business problem analysis
+* Duration: 5 working days (2026-12-03 to 2026-12-09)
+* Effort: 3.5 person-days
+* Resources (Lab 5 roles): PO, SP
+* Predecessors: 1.1.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-7,,,,RSFS-10,RSFS-11,,,,,{},,0|i000jk:,03/Dec/26 12:00 AM,3.5,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
+"1.1.1 Stakeholder interviews (purchasing team, store managers)",RSFS-7,10087,Task,Done,RSFS,Retail Sales Forecasting – Simulated (Mar 2027),software,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,Medium,Done,,,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,02/Nov/26 2:31 PM,02/Nov/26 2:37 PM,,02/Nov/26 2:37 PM,02/Dec/26 12:00 AM,0,PM,PO,SM,wbs-1-1,,,"*WBS 1.1.1* (Lab 5 Project Plan v2.00)
+
+* Deliverable: 1.1 Business problem analysis
+* Duration: 5 working days (2026-11-26 to 2026-12-02)
+* Effort: 6.5 person-days
+* Resources (Lab 5 roles): PO, PM, SM
+* Predecessors: 1.4.1",,Karen Junsay,712020:38a47a7f-8e71-4878-8491-effcafa7655b,,,,,,,,,RSFS-13,,,,RSFS-8,RSFS-9,,,,,{},,0|i000j8:,26/Nov/26 12:00 AM,6.5,,,10081,RSFS-1,1 Phase 1: Project initiation,Done,02/Nov/26 2:37 PM
