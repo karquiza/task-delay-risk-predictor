@@ -6,7 +6,11 @@ simulating the RSF project plan (the RSFS Jira export) 20 times with documented 
 Usage: python generate_synthetic_v3.py <rsfs_export.csv> <synthetic_v2.csv> <output.csv> [seed] [review|start]
 
 Rules (all parameters are in the PARAMETERS block below):
-  * Tasks, story points, roles, milestone gates, predecessors and baseline dates come
+  * Story points: each task has a true size (the RSF plan estimate). In each run the team's
+    estimate = true size x a random factor (lognormal, ESTIMATE_SD), rounded to 0.5 points.
+    Story_Points and the workload feature use the estimate (what Jira shows); the delay
+    uses the true size, so underestimated tasks tend to run late.
+  * Tasks, roles, milestone gates, predecessors and baseline dates come
     from the RSF plan. They are the same in every run.
   * External_Dependency belongs to the task: 1 if an outside role (sponsor SP,
     privacy/ethics officer PE, store managers SM) is on it. Same in every run.
@@ -48,6 +52,7 @@ N_RUNS = 20
 SNAPSHOT = pd.Timestamp("2027-03-12")            # board status is taken on this date (leaky column, not a feature)
 REVIEW_ANCHOR = pd.Timestamp("2027-02-19")       # RSF Sprint 1 start; risk reviews every REVIEW_DAYS from here
 PREDICT_AT = "review"                            # "review": sprint planning before the task; "start": the day it starts
+ESTIMATE_SD = 0.3                                # spread of team estimates around the true size (log scale, about +/-35%); 0 = fixed story points
 SLACK_CAP = 30                                   # Slack_Days is capped; tasks with no predecessors get the cap
 REVIEW_DAYS = 14                                 # fortnightly, matching the RSF two-week sprints and status reports
 EXTERNAL_ROLES = {"SP", "PE", "SM"}
@@ -75,6 +80,7 @@ if PREDICT_AT_ARG:
     PREDICT_AT = PREDICT_AT_ARG
 
 rng = np.random.default_rng(SEED)
+est_rng = np.random.default_rng(SEED + 1000)     # separate stream, so estimates do not change the other draws
 jira = pd.read_csv(export_path)
 v2 = pd.read_csv(v2_path)
 
@@ -189,7 +195,7 @@ def known_slip(p, P, start, finish):
     return max(0, pushed, past_due)
 
 
-def features_at_prediction(start, finish):
+def features_at_prediction(start, finish, est):
     """Upstream delay and workload using only what is visible in Jira on the prediction date."""
     up, wl, extra = {}, {}, {}
     for k in plan.index:
@@ -222,7 +228,7 @@ def features_at_prediction(start, finish):
                 else:                                    # not started: plan dates
                     w0, w1 = plan.at[o, "B_Start"], plan.at[o, "B_Finish"]
                 if w0 <= day <= w1:
-                    total += plan.at[o, "Story_Points"]
+                    total += est[o]
             best = max(best, total)
         wl[k] = best
     return up, wl, extra
@@ -231,6 +237,12 @@ def features_at_prediction(start, finish):
 out = []
 for run in range(1, N_RUNS + 1):
     exp = {p: round(rng.uniform(*EXPERIENCE_RANGE), 1) for p in ("PM/PO", "DS/SE", "DE/MLE")}
+    # This run's team estimates: true size x random factor, rounded to the plan's 0.5-point scale.
+    est = {}
+    for k in plan.index:
+        true_sp = plan.at[k, "Story_Points"]
+        factor = est_rng.lognormal(0.0, ESTIMATE_SD) if ESTIMATE_SD > 0 else 1.0
+        est[k] = 0.0 if true_sp == 0 else max(0.5, round(true_sp * factor * 2) / 2)
     team_avg = round(np.mean(list(exp.values())), 1)
     draws = {}
     for k in plan.index:
@@ -251,7 +263,7 @@ for run in range(1, N_RUNS + 1):
     start, finish, upstream = simulate(draws, wl)
     # Features are what the PM would see at the fortnightly review before the task starts;
     # the outcome above used the true workload and true predecessor finishes.
-    up_known, wl_known, extra = features_at_prediction(start, finish)
+    up_known, wl_known, extra = features_at_prediction(start, finish, est)
 
     for k in plan.sort_values("WBS_Code").index:
         t = plan.loc[k]
@@ -271,7 +283,7 @@ for run in range(1, N_RUNS + 1):
             "Task_Category": t["Task_Category"],
             "Current_Board_Status": status,
             "Planned_Due_Date": t["B_Finish"].strftime("%d-%b"),
-            "Story_Points": t["Story_Points"],
+            "Story_Points": est[k],
             "Is_Milestone_Gate": t["Is_Milestone_Gate"],
             "External_Dependency": t["External_Dependency"],
             "Assignee_Active_Workload_SP": round(wl_known[k], 1),
